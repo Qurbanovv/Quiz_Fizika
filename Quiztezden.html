@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2></h2>
+    <script src="Quiztezden.js"></script>
+</body>
+</html>
+const questions = [
+    {
+        question: "Qloballaşma subyektlərinin qarşılıqlı münasibətlərinə nə müdaxilə edir?",
+        options: [
+            "Elm və mədəniyyətə dair yeniliklər",
+            "Müasir informasiya kommunikasiya vasitələri",
+            "Bu günün insanı, onun həyat tərzi",
+            "Dilin nitq mədəniyyəti normalarının inkişafı",
+            "Milli dillərin inkişaf səviyyəsi"
+        ]
+    },
+    {
+        question: "Icbari qaydaları yoxdur",
+        options: [
+            "Yazılı dilin",
+            "Ümumxalq dilinin",
+            "Dialektlərin",
+            "Şifahi dilin",
+            "ədəbi dilin"
+        ]
+    },
+    {
+        question: "......icbari qaydalar təsbit edilir",
+        options: [
+            "Şifahi dilə",
+            "Yazılı dilə",
+            "Dialektlərə",
+            "Ədəbi dilə",
+            "Ümumxalq dilinə"
+        ]
+    },
+    {
+        question: "“Ümumxalq dilinin cilalalnmış, müəyyən normalara salınmış qoluna ədəbi dil deyilir” fikrinin müəllifi",
+        options: [
+            "A. Qurbanov",
+            "Ə. Dəmirçizadə",
+            "A.Axundov",
+            "F. Zeynallı",
+            "B. Xəlilov"
+        ]
+    },
+    {
+        question: ".......ümumxalq dili üzərində seçmə və əvəzetmə prinsipi əsasında əməliyyat aparma yolu ilə yaranır.",
+        options: [
+            "Dialektlər",
+            "Loru sözlər",
+            "Poetik sözlər",
+            "Ədəbi dil",
+            "Köhnəlmiş sözlər"
+        ]
+    },
+    {
+        question: "Nöqtələrin yerinə uyğun gələn termini yazın: “...bir əşya, varlıq və hadisəyə  məxsus əlamətin başqa bir əşya, varlıq və ya hadisə üzərinə köçürülməsi yolu ilə  yaranır.”",
+        options: [
+            "Metafor",
+            "Təşbeh",
+            "Epitet",
+            "Sinekdoxa",
+            "Simvol"
+        ]
+    },
+    {
+        question: "“Köçürmə” anlamında işlənən termin:",
+        options: [
+            "Təşbeh",
+            "Sinekdoxa",
+            "Metafor",
+            "Epitet",
+            "Simvol"
+        ]
+    },
+    {
+        question: "Biri məcaz deyil:",
+        options: [
+            "sinekdoxa",
+            "epitet",
+            "təşbeh",
+            "metafor",
+            "metonimiya"
+        ]
+    },
+    {
+        question: "Hər bir inkişaf etmiş dildə biri digərini tamamlayan tendensiya:",
+        options: [
+            "Xüsusi, ümumi",
+            "Tək, cəm",
+            "Tarixilik, müasirlik",
+            "Sinxronik, diaxronik",
+            "Diferensiasiya, inteqrasiya"
+        ]
+    },
+    {
+        question: "Hansı proses funksional üslubların bir – birinə yaxınlaşmasına təsir göstərir?",
+        options: [
+            "Diferensiasiya prosesi",
+            "İnteqrasiya prosesi",
+            "Ümumi proseslər",
+            "Dilçilik prosesləri",
+            "Təfəkkür prosesləri"
+        ]
+    },
+    {
+        question: "Hansı proses funksional üslubların yaranmasına, bir-birindən fərqlənməsinə gətirib çıxarır?",
+        options: [
+            "İnteqrasiya prosesi",
+            "Ümumi proseslər",
+            "Diferensiasiya prosesi",
+            "Dilçilik prosesləri",
+            "Təfəkkür prosesləri"
+        ]
+    },
+    {
+        question: "Dil vahidlərindən istifadə özünü necə göstərir?",
+        options: [
+            "ümumi, xüsusi",
+            "tək, cəm",
+            "diferensiasiya, inteqrasiya",
+            "konkret, mücərrəd",
+            "diaxronik, sinxronik"
+        ]
+    },
+    {
+        question: "Üslubiyyatın əsas vahidi:",
+        options: [
+            "Söz birləşməsi",
+            "Üslub",
+            "Söz",
+            "Cümlə",
+            "Mətn"
+        ]
+    },
+    {
+        question: "Nöqtələrin yerinə uyğun gələni yazın. “...dedikdə dil vasitələrindən məqsədyönlü istifadə üsulu, forması nəzərdə tutulur.”",
+        options: [
+            "Söz",
+            "Söz birləşməsi",
+            "Cümlə",
+            "Üslub",
+            "Mətn"
+        ]
+    },
+    {
+        question: "Funksional (ümumi, ictimai) üslublardan birinin adı səhv göstərilmişdir:",
+        options: [
+            "1) Bədii üslub",
+            "2) Elmi – kütləvi üslub",
+            "3) Publisistik üslub",
+            "4) Məişət üslubu",
+            "5) Rəsmi-işgüzar üslub"
+        ]
+    },
+    {
+        question: "Funksional (ümumi, ictimai) üslublardan birinin adı səhv göstərilmişdir:",
+        options: [
+            "1) Ədəbi üslub",
+            "2) Elmi üslub",
+            "3) Publisistik üslub",
+            "4) Məişət üslubu",
+            "5) Rəsmi-işgüzar üslub"
+        ]
+    },
+    {
+        question: "Verilənlərdən biri fonetik səviyyədə obrazlılığın, eləcə də emosionallığın göstəricilərinə aid deyil:",
+        options: [
+            "1. alliterasiya",
+            "2. assonans",
+            "3. təkrar",
+            "4. intonasiya",
+            "5. ellipsis"
+        ]
+    },
+    {
+        question: "Verilənlərdən biri fonetik səviyyədə obrazlılığın, eləcə də emosionallığın göstəricilərinə aid deyil:",
+        options: [
+            "1. frazeologiya",
+            "2. alliterasiya",
+            "3. assonans",
+            "4. təkrar",
+            "5. intonasiya"
+        ]
+    },
+    {
+        question: "Verilənlərdən neçəsi qrammatik səviyyədə obrazlılığın, eləcə də emosionallığın göstəricilərinə aid olanlardır? epitet, təşbeh, mübaliğə, istiarə, kinayə, söz sırasının dəyişməsi, alliterasiya, assonans, qeyri-normativ cümlə konstruksiyalarının işlənməsi, ellipsis",
+        options: [
+            "Dördü",
+            "Üçü",
+            "Beşi",
+            "İkisi",
+            "Biri"
+        ]
+    }
+];
