@@ -37,6 +37,7 @@
     }
     button{
         font-size: 12px;
+        padding: 7px;
     }
     .btn_div{
         display: flex;
@@ -45,7 +46,7 @@
     .vari{
         display: flex;
         flex-direction: column;
-        gap: 5px;
+        gap: 9px;
     }
 
 }
