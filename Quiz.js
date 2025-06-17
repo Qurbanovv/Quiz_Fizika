@@ -1,1013 +1,1116 @@
 const questions = [
-    {
-      question: "Mütləq elastiki toqquşma üçün aşağıdakılarda hansı doğrudur?",
-      answers: [
-        "A) Yalnız impulsun saxlanması qanununu ödənir.",
-        "B) İmpulsun və tam mexaniki enerjinin saxlanması qanunları ödənmir.",
-        "C) Yalnız tam mexaniki enerjinin saxlanması qanununu ödənir.",
-        "D) İmpulsun və tam mexaniki enerjinin saxlanması qanunları ödənir.",
-        "E) İmpulsun və tam mexaniki enerjinin saxlanması qanunları ödənə də bilər, ödənməyə də bilər."
-      ],
-      correct: "D) İmpulsun və tam mexaniki enerjinin saxlanması qanunları ödənir."
-    },
-    {
-      question: "C.san2 – hansı fiziki kəmiyyətin vahidinə uyğundur?",
-      answers: [
-        "A) İmpuls momenti",
-        "B) Qüvvə momenti",
-        "C) Ətalət momenti",
-        "D) Təcil",
-        "E) Qüvvə impulsu"
-      ],
-      correct: "C) Ətalət momenti"
-    },
-    {
-      question: "kq.m2 – hansı fiziki kəmiyyətin vahididir?",
-      answers: [
-        "A) Enerji sıxlığının",
-        "B) Impuls momentinin",
-        "C) Enerjinin",
-        "D) Ətalət momentinin",
-        "E) Qüvvə momentinin"
-      ],
-      correct: "D) Ətalət momentinin"
-    },
-    {
-        question: "1 atom kütlə vahidi (a.k.v) neçə kq-a bərabərdir?",
-        answers: [
-          "A) 1,38·10²⁷ kq",
-          "B) 1,38·10⁻²⁴ kq",
-          "C) 1,66·10⁻²⁴ kq",
-          "D) 1,66·10⁻²⁷ kq",
-          "E) 9,11·10⁻³¹ kq"
-        ],
-        correct: "D) 1,66·10⁻²⁷ kq"
-      },
-      {
-        question: "İdeal qazın mütləq temperaturu 4 dəfə artdıqda molekulların kvadratik orta sürəti necə dəyişir?",
-        answers: [
-          "A) 16 dəfə artar",
-          "B) 2 dəfə artar",
-          "C) 4 dəfə artar",
-          "D) Dəyişməz",
-          "E) 8 dəfə artar"
-        ],
-        correct: "B) 2 dəfə artar"
-      },
-      {
-        question: "İdeal qazın həcmi 2 dəfə artdıqda onun daxili enerjisi necə dəyişər?",
-        answers: [
-          "A) 4 dəfə artar",
-          "B) 2 dəfə artar",
-          "C) 2 dəfə azalar",
-          "D) Dəyişməz",
-          "E) 4 dəfə azalar"
-        ],
-        correct: "D) Dəyişməz"
-      },
-      {
-        question: "İdeal qazın həcmi 2 dəfə artdıqda onun molekullarının kvadratik orta sürəti necə dəyişir?",
-        answers: [
-          "A) 4 dəfə azalar",
-          "B) 2 dəfə artar",
-          "C) 1,4 dəfə artar",
-          "D) 4 dəfə artar",
-          "E) Dəyişməz"
-        ],
-        correct: "E) Dəyişməz"
-      },
-      {
-        question: "Hər birinin e.h.q.-si 2V, daxili müqavimətləri 0,5 Om olan dörd sabit cərəyan mənbəyi paralel birləşdirilmişdir. Yekun e.h.q.-ni və müqaviməti hesablayın:",
-        answers: [
-          "A) 2V; 2Om",
-          "B) 8V; 2Om",
-          "C) 2V; 0,5Om",
-          "D) 8V; 0,125Om",
-          "E) 2V; 0,125Om"
-        ],
-        correct: "E) 2V; 0,125Om"
-      },
-      {
-        question: "Elektronun yükünün modulu 1,6·10⁻¹⁹ Kl-dur. Bu yükü SQSE yük vahidi ilə ifadə edin:",
-        answers: [
-          "A) 4,8·10⁻¹⁰ SQSEq",
-          "B) 4,8·10⁻²⁸ SQSEq",
-          "C) 1,6·10⁻²⁸ SQSEq",
-          "D) 9·10⁻⁹ SQSEq",
-          "E) 8,85·10⁻¹² SQSEq"
-        ],
-        correct: "A) 4,8·10⁻¹⁰ SQSEq"
-      },
-      {
-        question: "Protonun kütləsi aşağıdakılardan hansıdır?",
-        answers: [
-          "A) 1,673·10⁻³¹ kq",
-          "B) 1,673·10⁻²⁴ kq",
-          "C) 1,673·10⁻²¹ kq",
-          "D) 1,673·10⁻²⁰ kq",
-          "E) 1,673·10⁻²⁷ kq"
-        ],
-        correct: "E) 1,673·10⁻²⁷ kq"
-      },
-      {
-        question: "Protonun kütləsi enerji vahidlərində necə ifadə edilir?",
-        answers: [
-          "A) 0,511 MeV",
-          "B) 939,6 MeV",
-          "C) 938,3 MeV",
-          "D) 673 MeV",
-          "E) 1024 MeV"
-        ],
-        correct: "C) 938,3 MeV"
-      },
-      {
-        question: "Neytronun kütləsinin enerji vahidlərində qiyməti nəyə bərabərdir?",
-        answers: [
-          "A) 939,6 MeV",
-          "B) 1024 MeV",
-          "C) 0,511 MeV",
-          "D) 938,3 MeV",
-          "E) 673 MeV"
-        ],
-        correct: "A) 939,6 MeV"
-      },      
-      {
-        question: "Neytronun və protonun kütlələri fərqi enerji vahidləri ilə necə ifadə edilir?",
-        answers: [
-          "A) 13,6 MeV",
-          "B) 2,5 MeV",
-          "C) 0,511 MeV",
-          "D) 7,1 MeV",
-          "E) 1,3 MeV"
-        ],
-        correct: "E) 1,3 MeV"
-      },
-      {
-        question: "Klassik mexanikada zaman anlayışı üçün aşağıdakılardan hansı doğrudur?",
-        answers: [
-          "A) Bir ölçülüdür, diskretdir, nisbidir",
-          "B) Üç ölçülüdür, diskretdir, mütləqdir",
-          "C) Bir ölçülüdür, kəsilməzdir, nisbidir",
-          "D) Bir ölçülüdür, kəsilməzdir, mütləqdir",
-          "E) Üç ölçülüdür, kəsilməzdir, mütləqdir"
-        ],
-        correct: "D) Bir ölçülüdür, kəsilməzdir, mütləqdir"
-      },
-      {
-        question: "Klassik mexanikada fəza:",
-        answers: [
-          "A) Üç ölçülüdür, nisbidir, diskretdir",
-          "B) Bir ölçülüdür, nisbidir, kəsilməzdir",
-          "C) Bir ölçülüdür, mütləqdir, diskretdir",
-          "D) Üç ölçülüdür, nisbidir, kəsilməzdir",
-          "E) Üç ölçülüdür, mütləqdir, kəsilməzdir"
-        ],
-        correct: "E) Üç ölçülüdür, mütləqdir, kəsilməzdir"
-      },
-      {
-        question: "Modulları F və 3F olan qüvvələr əks istiqamətdə cismin kütlə mərkəzinə tətbiq edilmişdir. Bu qüvvələr eyni istiqamətdə təsir edərsə, cismin təcilinin modulu necə dəyişər?",
-        answers: [
-          "A) 3 dəfə artar",
-          "B) 4 dəfə artar",
-          "C) 2 dəfə azalar",
-          "D) 2 dəfə artar",
-          "E) dəyişməz"
-        ],
-        correct: "D) 2 dəfə artar"
-      },
-      {
-        question: "Sabit qüvvənin təsiri altında hərəkət edən cismin kütləsini 2kq azaltdıqda təcili 3 dəfə artmışdır. Cismin başlanğıc kütləsini təyin edin.",
-        answers: [
-          "A) 4 kq",
-          "B) 6 kq",
-          "C) 5 kq",
-          "D) 8 kq",
-          "E) 3 kq"
-        ],
-        correct: "E) 3 kq"
-      },
-      {
-        question: "Enerjinin saxlanması qanunu nəyin nəticəsidir?",
-        answers: [
-          "A) Fəzanın bircinsliyi",
-          "B) Zamanın izotropluğu",
-          "C) Zamanın bircinsliyi",
-          "D) Fəzanın izotropluğu",
-          "E) Zamanın kəsilməzliyi"
-        ],
-        correct: "C) Zamanın bircinsliyi"
-      },
-      {
-        question: "İmpulsun saxlanması qanunu nəyin nəticəsidir?",
-        answers: [
-          "A) Zamanın kəsilməzliyi",
-          "B) Zamanın bircinsliyi",
-          "C) Fəzanın izotropluğu",
-          "D) Fəzanın mütləqliyi",
-          "E) Fəzanın bircinsliyi"
-        ],
-        correct: "E) Fəzanın bircinsliyi"
-      },
-      {
-        question: "İmpuls momentinin saxlanması qanunu nəyin nəticəsidir?",
-        answers: [
-          "A) Fəzanın izotropluğu",
-          "B) Fəzanın bircinsliyi",
-          "C) Zamanın bircinsliyi",
-          "D) Fəzanın kəsilməzliyi",
-          "E) Zamanın mütləqliyi"
-        ],
-        correct: "A) Fəzanın izotropluğu"
-      },
-      {
-        question: "N·san hansı fiziki kəmiyyətin vahidinə uyğundur?",
-        answers: [
-          "A) İmpuls",
-          "B) İmpuls momenti",
-          "C) Qüvvə momenti",
-          "D) Ətalət momenti",
-          "E) Güc"
-        ],
-        correct: "A) İmpuls"
-      },
-      {
-        question: "C·san hansı fiziki kəmiyyətin vahidinə uyğundur?",
-        answers: [
-          "A) İmpuls",
-          "B) Qüvvə momenti",
-          "C) Güc",
-          "D) İmpuls momenti",
-          "E) Ətalət momenti"
-        ],
-        correct: "D) İmpuls momenti"
-      },
-      {
-        question: "Maddi nöqtə r radiuslu çevrə boyunca qiymətcə sabit sürətlə hərəkət edir. Maddi nöqtəyə təsir edən qüvvə hansı istiqamətdə yönəlmişdir?",
-        answers: [
-          "A) radius vektorun əksinə",
-          "B) radius vektor istiqamətində",
-          "C) fırlanma istiqamətində və çevrəyə toxunan",
-          "D) fırlanma istiqamətinin əksinə və çevrəyə toxunan",
-          "E) radius vektorla iti bucaq əmələ gətirir"
-        ],
-        correct: "A) radius vektorun əksinə"
-      },
-      {
-        question: "Kütləsi 2 kq olan cisim qapalı trayektoriya boyunca 8m yol getmiş və əvvəlki vəziyyətinə qayıtmışdır. Ağırlıq qüvvəsinin işini hesablayın.",
-        answers: [
-          "A) 160 C",
-          "B) 0",
-          "C) 80 C",
-          "D) 40 C",
-          "E) 60 C"
-        ],
-        correct: "B) 0"
-      },
-      {
-        question: "Kütləsi 2 kq olan cisim sərbəst düşür. Yerə düşən anda sürəti 15 m/san olmuşsa, ağırlıq qüvvəsinin gördüyü işi hesablayın.",
-        answers: [
-          "A) 225 C",
-          "B) 450 C",
-          "C) 30 C",
-          "D) 300 C",
-          "E) 60 C"
-        ],
-        correct: "A) 225 C"
-      },
-      {
-        question: "Sistemin sərbəstlik dərəcəsi nədir?",
-        answers: [
-          "A) Sistemin vəziyyətini təyin edən parametrlər",
-          "B) Sistemin kinetik enerjisinin dəyişməsi",
-          "C) Sistemin potensial enerjisinin dəyişməsi",
-          "D) Sərbəst düşən cismin təcili",
-          "E) Sistem bir vəziyyətdən digər vəziyyətə keçərkən xarici qüvvələrin gördüyü iş"
-        ],
-        correct: "A) Sistemin vəziyyətini təyin edən parametrlər"
-      },  
-      {
-        question: "İmpulsu saxlanan mexaniki sistemin kütlə mərkəzi necə hərəkət edir?",
-        answers: [
-          "A) Düzxətli bərabəryeyinləşən",
-          "B) Düzxətli bərabəryavaşıyan",
-          "C) Çevrə boyunca bərabəryeyinləşən",
-          "D) Düzxətli bərabərsürətli",
-          "E) Çevrə boyunca bərabəryavaşıyan"
-        ],
-        correct: "D) Düzxətli bərabərsürətli"
-      },
-      {
-        question: "Aşağıda eyni bir cismin müxtəlif hərəkətinin tənlikləri verilmişdir: 1) υx = -3 + 6t   2) υx = 3 - 4t   3) υx = 7 - 3t   4) υx = -7t   5) υx = -t. Hansı halda cismə təsir edən əvəzləyici qüvvənin modulu ən böyükdür?",
-        answers: [
-          "A) 4",
-          "B) 2",
-          "C) 5",
-          "D) 1",
-          "E) 3"
-        ],
-        correct: "A) 4"
-      },
-      {
-        question: "Cismin impulsu P = 3t³ + 2t² - 5t qanunu ilə dəyişir. 2-ci saniyənin sonunda cismə təsir edən qüvvənin modulunu tapın.",
-        answers: [
-          "A) 39 N",
-          "B) 20 N",
-          "C) 22 N",
-          "D) 0",
-          "E) 10 N"
-        ],
-        correct: "A) 39 N"
-      },
-      {
-        question: "Sükunətdəki cismə təsir edən qüvvə zamandan asılı olaraq F = 4t qanunu ilə dəyişir. 3-cü saniyənin sonunda cismin impulsunu təyin edin.",
-        answers: [
-          "A) 7 kq∙m/san",
-          "B) 12 kq∙m/san",
-          "C) 4 kq∙m/san",
-          "D) 18 kq∙m/san",
-          "E) 36 kq∙m/san"
-        ],
-        correct: "D) 18 kq∙m/san"
-      },
-      {
-        question: "Hansı qüvvə konservativ qüvvə adlanır?",
-        answers: [
-          "A) Sinusoidal qanunla dəyişən qüvvə",
-          "B) Təbiətdə olan bütün qüvvələr",
-          "C) Gördüyü iş yolun formasından asılı olan",
-          "D) Qiymətcə sabit qüvvələr",
-          "E) Gördüyü iş yolun formasından asılı olmayan"
-        ],
-        correct: "E) Gördüyü iş yolun formasından asılı olmayan"
-      },
-      {
-        question: "Tam mexaniki enerjinin saxlanması qanunu nə ilə əlaqədardır?",
-        answers: [
-          "A) Zamanın izotropluğu",
-          "B) Fəzanın izotropluğu",
-          "C) Fəzanın bircinsliyi",
-          "D) Zamanın bircinsliyi",
-          "E) Impulsun saxlanması qanunu"
-        ],
-        correct: "D) Zamanın bircinsliyi"
-      },
-      {
-        question: "Ətalət momenti 60 kq∙m² olan disk 3 rad/san bucaq sürəti ilə fırlanır. Diskin impuls momentini hesablayın.",
-        answers: [
-          "A) 57 C∙san",
-          "B) 63 C∙san",
-          "C) 180 C∙san",
-          "D) 20 C∙san",
-          "E) 540 C∙san"
-        ],
-        correct: "C) 180 C∙san"
-      },
-      {
-        question: "Fırlanma hərəkətində cismin ətalət ölçüsü hansı fiziki kəmiyyətlə xarakterizə olunur?",
-        answers: [
-          "A) Kütlə",
-          "B) İmpuls momenti",
-          "C) Ətalət momenti",
-          "D) Radius vektor",
-          "E) Kinetik enerji"
-        ],
-        correct: "C) Ətalət momenti"
-      },
-      {
-        question: "Fırlanan cismin kinetik enerjisini 16 dəfə artırdıqda onun impuls momenti necə dəyişir?",
-        answers: [
-          "A) 4 dəfə azalar",
-          "B) 2 dəfə azalar",
-          "C) 16 dəfə artar",
-          "D) 16 dəfə azalar",
-          "E) 4 dəfə artar"
-        ],
-        correct: "E) 4 dəfə artar"
-      },
-      {
-        question: "Əyrixətli hərəkətdə tam təcil hansı istiqamətdə yönəlir?",
-        answers: [
-          "A) Yekun qüvvə istiqamətində",
-          "B) Əyrilik mərkəzinə tərəf",
-          "C) Əyriyə toxunan istiqamətində",
-          "D) Yekun qüvvənin əksi istiqamətində",
-          "E) İstiqaməti məlum deyil"
-        ],
-        correct: "A) Yekun qüvvə istiqamətində"
-      },
-      {
-        question: "20 N qüvvənin təsiri altında cismin yerdəyişməsinin zamandan asılılığı S=6-2t-t² qanunu ilə baş verir. Cismin kütləsi nəyə bərabərdir?",
-        answers: [
-          "A) 10 kq",
-          "B) 40 kq",
-          "C) 120 kq",
-          "D) 14 kq",
-          "E) 60 kq"
-        ],
-        correct: "A) 10 kq"
-      },
-      {
-        question: "Hərəkətin əyrixətli və düzxətli olması necə müəyyən edilir?",
-        answers: [
-          "A) Bucaq sürəti ilə",
-          "B) υ = ωR ifadəsi ilə",
-          "C) xətti və bucaq sürəti ilə",
-          "D) Trayektoriyanın forması ilə",
-          "E) gedilən yolun uzunluğu ilə"
-        ],
-        correct: "D) Trayektoriyanın forması ilə"
-      },
-      {
-        question: "Sıxlığı 0.01 kq/m³, molekullarının orta kvadratik sürəti 480 m/san olan ideal qazın təzyiqini təyin edin.",
-        answers: [
-          "A) 105 Pa",
-          "B) 4.8∙10⁴ Pa",
-          "C) 160 Pa",
-          "D) 768 Pa",
-          "E) 600 Pa"
-        ],
-        correct: "D) 768 Pa"
-      },
-      {
-        question: "Qaz adiobatik genişlənir. Bu zaman qazın temperaturu və təzyiqi necə dəyişir?",
-        answers: [
-          "A) Temperatur və təzyiq azalır",
-          "B) Temperatur artır, təzyiq azalır",
-          "C) Temperatur azalır, təzyiq artır",
-          "D) Temperatur və təzyiq dəyişmir",
-          "E) Temperatur və təzyiq artır"
-        ],
-        correct: "A) Temperatur və təzyiq azalır"
-      },
-      {
-        question: "Nyutonun birinci qanunundakı təsir anlayışını təsvir etmək üçün hansı fiziki kəmiyyətdən istifadə edilir?",
-        answers: [
-          "A) Təcil",
-          "B) Kütlə",
-          "C) Qüvvə",
-          "D) Sürət",
-          "E) Bucaq sürəti"
-        ],
-        correct: "C) Qüvvə"
-      },
-      {
-        question: "Molekulların istilik hərəkətinin orta kinetik enerjisi onların qarşılıqlı təsirinin potensial enerjisindən dəfələrlə böyükdürsə, maddə hansı aqreqat halındadır?",
-        answers: [
-          "A) Bərk",
-          "B) Maye",
-          "C) Qaz",
-          "D) Qaz və maye",
-          "E) Maye və bərk"
-        ],
-        correct: "C) Qaz"
-      },
-      {
-        question: "Maddənin atomları bir-birinə çox yaxın və nizamlı yerləşiblərsə, periodik təkrarlanan quruluş əmələ gətiriblərsə, maddə hansı aqreqat halda olar?",
-        answers: [
-          "A) Qaz və maye",
-          "B) Maye",
-          "C) Qaz",
-          "D) Kristal",
-          "E) Kristal və maye"
-        ],
-        correct: "D) Kristal"
-      },
-      {
-        question: "Havanın tərkibinə daxil olan N₂, O₂, H₂, CO₂, CO qazlarından verilmiş temperaturda hansının molekullarının orta ədədi sürəti ən böyükdür?",
-        answers: [
-          "A) H₂",
-          "B) O₂",
-          "C) CO",
-          "D) CO₂",
-          "E) N₂"
-        ],
-        correct: "A) H₂"
-      },
-      {
-        question: "Qazda proseslərin izotermikliyini necə təmin etmək olar?",
-        answers: [
-          "A) Prosesi sürətli və istiliyi çox zəif keçirən qabda aparmaqla",
-          "B) Prosesi çox sürətlə aparmaqla",
-          "C) Prosesi yavaş və istiliyi yaxşı keçirən qabda aparmaqla",
-          "D) Prosesi sabit həcmdə aparmaqla",
-          "E) Prosesdə təzyiqi sabit saxlamaqla"
-        ],
-        correct: "C) Prosesi yavaş və istiliyi yaxşı keçirən qabda aparmaqla"
-      },
-      {
-        question: "Sıxlığı 0.03 kq/m³, molekullarının orta kvadratik sürəti 300 m/san olan qazın təzyiqini təyin edin.",
-        answers: [
-          "A) 500 Pa",
-          "B) 400 Pa",
-          "C) 160 Pa",
-          "D) 900 Pa",
-          "E) 600 Pa"
-        ],
-        correct: "D) 900 Pa"
-      },
-      {
-        question: "Eyni kütləli metal çubuqların başlanğıc temperaturları t₁ = 800°C və t₂ = 200°C – dir. Çubuqları toxundurduqda qərarlaşmış temperatur 440°C olur. Metalların xüsusi istilik tutumları nisbətini (c₁/c₂) tapın.",
-        answers: [
-          "A) 1/3",
-          "B) 2/3",
-          "C) 3/4",
-          "D) 2",
-          "E) 3"
-        ],
-        correct: "B) 2/3"
-      },
-      {
-        question: "Hər hansı proses zamanı qaz 5 MC iş görür və onun daxili enerjisi 2 MC azalır. Bu prosesdə qaza verilən istilik miqdarını hesablayın.",
-        answers: [
-          "A) 4 MC",
-          "B) 7 MC",
-          "C) 3 MC",
-          "D) 10 MC",
-          "E) 2 MC"
-        ],
-        correct: "C) 3 MC"
-      },
-      {
-        question: "Qabdakı ideal qazın kütləsini dəyişmədən həcmini və təzyiqini 3 dəfə artırsalar, molekulların orta kvadratik sürəti necə dəyişər?",
-        answers: [
-          "A) Dəyişməz",
-          "B) 3 dəfə azalar",
-          "C) 9 dəfə artar",
-          "D) 9 dəfə azalar",
-          "E) 3 dəfə artar"
-        ],
-        correct: "E) 3 dəfə artar"
-      },
-      {
-        question: "Entropiya üçün Boltsman tənliyi riyazi olaraq necə ifadə edilir?",
-        answers: [
-          "A) S = R lnW",
-          "B) S = k2 lnW",
-          "C) S = k TlnW",
-          "D) S = k lnW",
-          "E) S = k R lnW"
-        ],
-        correct: "D) S = k lnW"
-      },
-      {
-        question: "Entropiya üçün Boltsman tənliyində W fiziki kəmiyyəti nəyi ifadə edir?",
-        answers: [
-          "A) Halın statistik çəkisini",
-          "B) Halın enerjisini",
-          "C) Molekulların orta kinetik enerjisini",
-          "D) Sistemin makrohallarının sayını",
-          "E) Entropiyanı"
-        ],
-        correct: "A) Halın statistik çəkisini"
-      },
-      {
-        question: "Karno dövrü zamanı qızdırıcıdan alınan istiliyin ¾-ü soyuducuya verilir. Qızdırıcının temperaturu 400 K-dir. Soyuducunun temperaturunu tapın.",
-        answers: [
-          "A) 200 K",
-          "B) 300 K",
-          "C) 100 K",
-          "D) 50 K",
-          "E) 150 K"
-        ],
-        correct: "A) 300 K"
-      },
-      {
-        question: "Hansı proses zamanı sistemin entropiyası dəyişmir?",
-        answers: [
-          "A) İzotermik",
-          "B) Adiobatik",
-          "C) İzobarik",
-          "D) İzoxorik",
-          "E) Adiobatik və izotermik"
-        ],
-        correct: "B) Adiobatik"
-      },
-      {
-        question: "Qapalı sistemin daxilində gedən dönməyən proseslərdə entropiya necə dəyişir?",
-        answers: [
-          "A) Məlum deyil",
-          "B) Azalır",
-          "C) Dəyişmir",
-          "D) Artır",
-          "E) Əvvəl artır, sonra azalır"
-        ],
-        correct: "D) Artır"
-      },
-      {
-        question: "İstilik maşınının f.i.ə. 12%-dir. Maşın bir dövr ərzində 150 C iş görür. Dövr ərzində soyuducuya verilən istilik miqdarını hesablayın.",
-        answers: [
-          "A) 200 C",
-          "B) 400 C",
-          "C) 1100 C",
-          "D) 1200 C",
-          "E) 1600 C"
-        ],
-        correct: "D) 1100 C"
-      },
-      {
-        question: "İstilik maşınının f.i.ə. 15%, bir dövr ərzində soyuducuya verdiyi istilik miqdarı 34 C-dir. Bir dövrdə maşının gördüyü işi hesablayın.",
-        answers: [
-          "A) 12 C",
-          "B) 40 C",
-          "C) 80 C",
-          "D) 6 C",
-          "E) 180 C"
-        ],
-        correct: "D) 6 C"
-      },
-      {
-        question: "Qaza 15 C istilik miqdarı verilməsi və qaz üzərində işin görülməsi nəticəsində ideal qazın daxili enerjisi 20 C artmışdır. Nə qədər iş görülmüşdür?",
-        answers: [
-          "A) 5 C",
-          "B) 35 C",
-          "C) 40 C",
-          "D) 8 C",
-          "E) 12 C"
-        ],
-        correct: "A) 5 C"
-      },
-      {
-        question: "Qazda gedən proses zamanı istənilən anda xarici qüvvələrin qaz üzərində gördüyü iş qazın ətraf cisimlərə verdiyi istilik miqdarına bərabərdir. Qazda hansı proses gedir?",
-        answers: [
-          "A) Adiobatik",
-          "B) İzoxorik",
-          "C) İzobarik",
-          "D) İzotermik",
-          "E) İzotermik və adiobatik"
-        ],
-        correct: "D) İzotermik"
-      },
-      {
-        question: "Qaz adiobatik sıxılır. Bu zaman qazın temperaturu və təzyiqi necə dəyişir?",
-        answers: [
-          "A) Temperatur və təzyiq artır",
-          "B) Temperatur artır, təzyiq azalır",
-          "C) Temperatur azalır, təzyiq artır",
-          "D) Temperatur dəyişmir, təzyiq azalır",
-          "E) Temperatur artır, təzyiq dəyişmir"
-        ],
-        correct: "A) Temperatur və təzyiq artır"
-      },
-      {
-        question: "Termodinamik sistemdə ixtiyari termodinamik proses baş verir. Daxili enerji (U), entropiya (S), iş (A), istilik miqdarı (Q) kimi kəmiyyətlərdən hansılar sistemin hal funksiyasıdır?",
-        answers: [
-          "A) U və Q",
-          "B) Q və A",
-          "C) U və S",
-          "D) Q, U və S",
-          "E) S və Q"
-        ],
-        correct: "C) U və S"
-      },
-      {
-        question: "Karno prosesi üçün hansı doğrudur?",
-        answers: [
-          "A) İki izotermik və iki izoxorik prosesdən ibarətdir",
-          "B) İki izotermik və iki izobarik prosesdən ibarətdir",
-          "C) İki adiabatik və iki izoxorik prosesdən ibarətdir",
-          "D) İki izotermik və iki adiabatik prosesdən ibarətdir",
-          "E) İki adiabatik və iki izobarik prosesdən ibarətdir"
-        ],
-        correct: "D) İki izotermik və iki adiabatik prosesdən ibarətdir"
-      },
-      {
-        question: "2 kq kütləli ideal qaz izotermik genişlənərkən 40 C iş görmüşdür. Qaza verilən istilik miqdarı nə qədər olmuşdur?",
-        answers: [
-          "A) 80 C",
-          "B) 42 C",
-          "C) 20 C",
-          "D) 40 C",
-          "E) C"
-        ],
-        correct: "D) 40 C"
-      },
-      {
-        question: "Nernst qanunu (Termodinamikanın III qanunu) aşağıdakılardan hansıdır?",
-        answers: [
-          "A) Temperatur mütləq sıfıra yaxınlaşdıqda naqillərin xüsusi müqaviməti sıfra yaxınlaşır",
-          "B) İrəliləmə hərəkətində hər sərbəstlik dərəcəsinə ½ kT qədər enerji düşür",
-          "C) Adiabatik prosesdə sistemin entropiyasının dəyişməsi sıfıra bərabərdir",
-          "D) Temperatur mütləq sıfıra yaxınlaşdıqda sistemin entropiyası sıfıra yaxınlaşır",
-          "E) T = 0K almaq mümkün deyildir"
-        ],
-        correct: "D) Temperatur mütləq sıfıra yaxınlaşdıqda sistemin entropiyası sıfıra yaxınlaşır"
-      },
-      {
-        question: "Aşağıdakı kəmiyyətlərdən hansı hal parametri deyil?",
-        answers: [
-          "A) Daxili enerji",
-          "B) Entropiya",
-          "C) İstilik miqdarı",
-          "D) Təzyiq",
-          "E) Temperatur"
-        ],
-        correct: "C) İstilik miqdarı"
-      },
-      {
-        question: "SQSE sistemində elementar yük (elektronun yükünün modulu) necə ifadə edilir?",
-        answers: [
-          "A) 1,6·10⁻²⁸ SQSEq",
-          "B) 1,6·10⁻¹⁰ SQSEq",
-          "C) 4,8·10⁻¹⁹ SQSEq",
-          "D) 4,8·10⁻¹⁰ SQSEq",
-          "E) 1,6·10¹⁰ SQSEq"
-        ],
-        correct: "D) 4,8·10⁻¹⁰ SQSEq"
-      },
-      {
-        question: "Radiusu 20 sm olan yüklü kürənin səthində elektrik sahəsinin potensialı 4V-dur. Kürənin mərkəzindən 10 sm məsafədə potensialın qiyməti nə qədər olar?",
-        answers: [
-          "A) 4V",
-          "B) 8V",
-          "C) 0",
-          "D) 12V",
-          "E) 6V"
-        ],
-        correct: "A) 4V"
-      },
-      {
-        question: "Elektrik sahəsində müsbət yükün hərəkəti zamanı görülən işin yükün miqdarına olan nisbəti ilə təyin olunan fiziki kəmiyyət hansıdır?",
-        answers: [
-          "A) Mühitin dielektrik nüfuzluluğu",
-          "B) Elektrostatik sahənin potensialı",
-          "C) Elektrostatik sahənin enerjisi",
-          "D) Elektrik tutumu",
-          "E) Elektrostatik sahənin potensiallar fərqi"
-        ],
-        correct: "E) Elektrostatik sahənin potensiallar fərqi "
-      },
-      {
-        question: "Yüklənmiş kürənin mərkəzində potensial 240 V, kürənin səthindən 2 sm məsafədə 200 V-dur. Kürənin radiusunu tapın.",
-        answers: [
-          "A) 5 sm",
-          "B) 8 sm",
-          "C) 10 sm",
-          "D) 20 sm",
-          "E) 40 sm"
-        ],
-        correct: "C) 10 sm"
-      },
-      {
-        question: "İki müsbət yük arasındakı məsafəni necə dəyişmək lazımdır ki, yüklərin hər birini 4 dəfə artırdıqda qarşılıqlı təsir qüvvəsi dəyişməz qalsın?",
-        answers: [
-          "A) 4 dəfə azaltmaq",
-          "B) 2 dəfə artırmaq",
-          "C) 16 dəfə artırmaq",
-          "D) 16 dəfə azaltmaq",
-          "E) 4 dəfə artırmaq"
-        ],
-        correct: "E) 4 dəfə artırmaq"
-      },
-      {
-        question: "Bir-birindən 1 m məsafədə vakuumda paralel yerləşdirilmiş iki düz paralel naqillərin 1m uzunluqlarının maqnit qarşılıqlı təsir qüvvəsinə görə hansı fiziki kəmiyyətin vahidi təyin edilir?",
-        answers: [
-          "A) Maqnit momentinin",
-          "B) Gərginliyin",
-          "C) İnduktivliyin",
-          "D) Cərəyan şiddətinin",
-          "E) Elektrik hərəkət qüvvəsinin"
-        ],
-        correct: "D) Cərəyan şiddətinin"
-      },
-      {
-        question: "İdeal qazın həcmi iki dəfə artdıqda onun daxili enerjisi necə dəyişər?",
-        answers: [
-          "A) 4 dəfə artar",
-          "B) 2 dəfə artar",
-          "C) 4 dəfə azalar",
-          "D) Dəyişməz",
-          "E) 2 dəfə azalar"
-        ],
-        correct: "D) Dəyişməz"
-      },
-      {
-        question: "İdeal qazın temperaturu 300 K–dir. Qazı 60 dərəcə qızdırdıqda onun molekullarının orta kinetik enerjisi necə dəyişər?",
-        answers: [
-          "A) Dəyişməz",
-          "B) 5 dəfə artar",
-          "C) 5 dəfə azalar",
-          "D) 1.2 dəfə artar",
-          "E) 2 dəfə artar"
-        ],
-        correct: "D) 1.2 dəfə artar"
-      },
-      {
-        question: "Rəqsi hərəkətdə hər sərbəstlik dərəcəsinə düşən enerjinin, irəliləmə hərəkətində hər sərbəstlik dərəcəsinə düşən enerjiyə nisbəti nəyə bərabərdir?",
-        answers: [
-          "A) 2",
-          "B) 1",
-          "C) ½",
-          "D) 4",
-          "E) 1,2"
-        ],
-        correct: "A) 2"
-      },
-      {
-        question: "R-universal qaz sabitinin fiziki mənası nədir?",
-        answers: [
-          "A) 1 mol qazı bir dərəcə qızdırdıqda genişlənərkən görülən iş",
-          "B) Qaz sabit təzyiqdə genişlənərkən görülən iş",
-          "C) Halın statistik çəkisi",
-          "D) Sistemin makrohallarına uyğun mikrohalların sayı",
-          "E) Sabit təzyiqdə molyar istilik tutumunun sabit həcmdə molyar istilik tutumuna nisbəti"
-        ],
-        correct: "A) 1 mol qazı bir dərəcə qızdırdıqda genişlənərkən görülən iş"
-      },
-      {
-        question: "ε₀ – elektrik sabitinin ədədi qiyməti nə qədərdir?",
-        answers: [
-          "A) 8.95∙10⁻¹² Kl/(N∙m)",
-          "B) 9.62∙10⁻¹² Kl/(N∙m)",
-          "C) 6.67∙10⁻¹¹ N∙m²/kq²",
-          "D) 8.85∙10⁻¹² Kl/(N∙m²)",
-          "E) 8.65∙10¹² Kl²/(N∙m²)"
-        ],
-        correct: "D) 8.85∙10⁻¹² Kl/(N∙m²)"
-      },
-      {
-        question: "Müsbət vahid yükə təsir göstərən qüvvə (F/q) ilə təyin olunan fiziki kəmiyyət hansıdır?",
-        answers: [
-          "A) Naqilin induktivliyi",
-          "B) Elektrik sahəsinin potensialı",
-          "C) Mənbəyin ehq-si",
-          "D) Elektrostatik sahənin intensivliyi",
-          "E) Maqnit sahəsinin induksiyası"
-        ],
-        correct: "D) Elektrostatik sahənin intensivliyi"
-      },
-      {
-        question: "Qapalı sabit cərəyan dövrəsində cərəyan mənbəyinin sıxaclarına qoşulmuş voltmetr nəyi göstərir?",
-        answers: [
-          "A) Cərəyan mənbəyinin daxili müqavimətindəki gərginlik düşküsünü",
-          "B) Dövrənin xarici hissəsindəki gərginlik düşküsünü",
-          "C) Cərəyan mənbəyinin daxili müqavimətində və dövrənin xarici hissəsindəki gərginlik düşkülərinin fərqini",
-          "D) Qısa qapanma gərginliyini",
-          "E) Cərəyan mənbəyinin daxili müqavimətində və dövrənin xarici hissəsindəki gərginlik düşkülərinin cəmini"
-        ],
-        correct: "B) Dövrənin xarici hissəsindəki gərginlik düşküsünü"
-      },
-      {
-        question: "Verilmiş sabit cərəyan dövrəsində qısa qapanma cərəyanı nədən asılıdır?",
-        answers: [
-          "A) Mənbəyin ehq-dən və daxili müqavimətindən",
-          "B) Yalnız mənbəyin ehq-dən",
-          "C) Dövrənin xarici hissəsinin müqavimətindən",
-          "D) Yalnız mənbəyin daxili müqavimətindən",
-          "E) Mənbəyin daxili müqavimətindən və dövrənin xarici hissəsinin müqavimətindən"
-        ],
-        correct: "A) Mənbəyin ehq-dən və daxili müqavimətindən"
-      },
-      {
-        question: "n-sayda sabit cərəyan mənbəyi paralel birləşdirilmişdir. Bütün cərəyan mənbələrinin ehq-ri eynidir və ε-a bərabərdir. Batareyanın yekun ehq-si nəyə bərabərdir?",
-        answers: [
-          "A) ε",
-          "B) nε",
-          "C) (n+1)ε",
-          "D) ε/n",
-          "E) ε/n+1"
-        ],
-        correct: "A) ε"
-      },
-      {
-        question: "N/kulon hansı fiziki kəmiyyətin ölçü vahididir?",
-        answers: [
-          "A) Cərəyan sıxlığının",
-          "B) Elektrik tutumunun",
-          "C) Cərəyan şiddətinin",
-          "D) Elektrik sahəsinin intensivliyinin",
-          "E) Potensialın"
-        ],
-        correct: "D) Elektrik sahəsinin intensivliyinin"
-      },
-      {
-        question: "Amper qüvvəsinin istiqaməti hansı qaydaya əsasən təyin edilir?",
-        answers: [
-          "A) Sağ əl",
-          "B) Lens",
-          "C) Sol əl",
-          "D) Kirxhof",
-          "E) Henri"
-        ],
-        correct: "C) Sol əl"
-      },
-      {
-        question: "Maqnit sabitinin (μ₀) ədədi qiyməti nə qədərdir?",
-        answers: [
-          "A) 4π·10⁻⁷ N/A²",
-          "B) 10⁻⁷ N/A²",
-          "C) 2π·10⁻⁷ N/A²",
-          "D) 4π·10⁻⁵ N/A²",
-          "E) 2π·10⁻⁵ N/A²"
-        ],
-        correct: "A) 4π·10⁻⁷ N/A²"
-      },
-      {
-        question: "Vakuumda yerləşən I₁ = I₂ = 1A, R = 1m olan iki paralel cərəyanlı naqilin hər vahid uzunluğuna düşən qarşılıqlı təsir qüvvəsi nə qədərdir?",
-        answers: [
-          "A) 2·10⁻⁷ N",
-          "B) 2·10⁻⁸ N",
-          "C) 2·10⁻⁶ N",
-          "D) 2·10⁻⁵ N",
-          "E) 2·10⁻⁴ N"
-        ],
-        correct: "A) 2·10⁻⁷ N"
-      },
-      {
-        question: "Elektromaqnit induksiyası hadisəsini ilk dəfə kim kəşf etmişdir?",
-        answers: [
-          "A) G. Om",
-          "B) İ. Nyuton",
-          "C) M. Faradey",
-          "D) F. Savar",
-          "E) E. Holl"
-        ],
-        correct: "C) M. Faradey"
-      },
-      {
-        question: "Yükləri +6q və –4q olan iki eyni radiuslu metal kürələri toxundurub ayırdılar. Hər bir kürənin yükü nə qədər olar?",
-        answers: [
-          "A) q",
-          "B) -q",
-          "C) 5q",
-          "D) 2q",
-          "E) -5q"
-        ],
-        correct: "A) q"
-      },
-      {
-        question: "Yükləri q və 5q olan eyni ölçülü metal kürələr arasında məsafə r-dir. Kürələri bir-birinə toxundurub əvvəlki məsafəyə qədər uzaqlaşdırsaq, onlar arasındakı Kulon təsirinin modulu necə dəyişir?",
-        answers: [
-          "A) 5 dəfə azalar",
-          "B) Dəyişməz",
-          "C) 1,8 dəfə artar",
-          "D) 5 dəfə artar",
-          "E) 4 dəfə azalar"
-        ],
-        correct: "C) 1,8 dəfə artar"
-      },
-      {
-        question: "Om⁻¹·sm⁻¹ hansı fiziki kəmiyyətin vahididir?",
-        answers: [
-          "A) Cərəyan sıxlığının",
-          "B) Xüsusi müqavimətin",
-          "C) Elektrik tutumunun",
-          "D) Xüsusi elektrik keçiriciliyinin",
-          "E) İnduktivliyin"
-        ],
-        correct: "D) Xüsusi elektrik keçiriciliyinin"
-      },
-      {
-        question: "Hər birinin elektrik hərəkət qüvvəsi 2V olan on ədəd sabit cərəyan mənbəyi paralel birləşdirilmişdir. Batareyanın elektrik hərəkət qüvvəsi nə qədər olar?",
-        answers: [
-          "A) 8V",
-          "B) 20V",
-          "C) 12V",
-          "D) 2V",
-          "E) 5V"
-        ],
-        correct: "D) 2V"
-      },
-      {
-        question: "Elektrik hərəkət qüvvəsi 6V olan sabit cərəyan mənbəyi R = 3,4 Om xarici müqavimətə qoşulmuşdur. Dövrədən 1500 mA cərəyan keçərsə, qısa qapanma cərəyanını təyin edin.",
-        answers: [
-          "A) 15 A",
-          "B) 5,6 A",
-          "C) 4 A",
-          "D) 12,4 A",
-          "E) 10 A"
-        ],
-        correct: "E) 10 A"
-      }  
-  ];
-    
-
-  
-
-  
-
-
-
-
-// {
-//     question: "Verilənlərdən biri plagiata aid xüsusiyyətdir:",
-//     answers: [
-//         "A) digərlərinin ideyalarını, cizgi və ya fərziyyələrini onların mənbələrinə istinad göstərmədən mənimsəməkdir.",
-//         "B) problemin geniş, hərtərəfli tədqiqinə və həllinə həsr edilmiş genişhəcmli elmi-tədqiqat əsəridir",
-//         "C) hər hansı elmi işin, problemin öyrənilməsi və nəticəsi haqqında yazılı şəkildə qısa xülasə, eləcə də müvafiq ədəbiyyat, məxəzlər əsasında müəyyən mövzuda edilən məruzədir",
-//         "D) tezis və ya dissertasiyanın sonuncu hissələrindəndir",
-//         "E) titul vərəqindən sonra ikinci səhifədir"
-//     ]
-// },
-// {
-//     question: "Plagiata aid xüsusiyyətlərdən biri səhvdir:",
-//     answers: [
-//         "A) başqa mətn fraqmentinin mənbəyi göstərilməklə, ancaq dırnağa alınmadan köçürülməsi;",
-//         "B) başqa mətnləri dırnağa almadan və mənbəyini göstərmədən birbaşa olaraq köçürmək;",
-//         "C) məqalə əvvəllər çap olunmuş materialın 60 – 70% həcmini təkrarlayarsa, avtoplagiat sayılmır başqa mətn fraqmentinin mənbəyi göstərilməklə, ancaq dırnağa alınmadan köçürülməsi;",
-//         "D) başqa mənbəyə aid mətnin bir neçə sözünü dəyişməklə qeyri-adekvat (hətta mənbə göstərildikdə belə) təsviri.",
-//         "E) plagiator başqasının işini öz sözləri ilə yenidən yazır, nəticələri öz fikirləşdiyi kimi formulə edir."
-//     ]
-// }
+  {
+    question: "İbtidai icma dövrünün sonunda tərbiyənin kollektiv ənənələri uşaq və yeniyetmələr üçün ...........meydana gəlməsinə səbəb oldu?",
+    answers: [
+      "A) Məktəblərin",
+      "B) Zikkuratların",
+      "C) Liseylərin",
+      "D) «Gənclər evi»nin",
+      "E) Gimnasilərin"
+    ],
+    correct: "D) «Gənclər evi»nin"
+  },
+  {
+    question: "… bəşər cəmiyyətin mövcud olduğu zamandan indiyə kimi ayrı-ayrı tarixi dövrlərdə tərbiyəni, məktəbi və pedaqoji nəzəriyyələrin yaranması və inkişafından bəhs edir.",
+    answers: [
+      "A) Ədəbiyyat tarixi",
+      "B) Elm tarixi",
+      "C) Mülkü tarix",
+      "D) Pedaqogika tarixi",
+      "E) Sosial tarix"
+    ],
+    correct: "D) Pedaqogika tarixi"
+  },
+  {
+    question: "Pedaqogika tarixi nədən bəhs edir?",
+    answers: [
+      "A) Bəşər cəmiyyətin mövcud olduğu zamandan indiyə kimi ayrı-ayrı tarixi dövrlərdə tərbiyəni, məktəbi və pedaqoji nəzəriyyələrin yaranması və inkişafından",
+      "B) Konkret peşə fəaliyyətinin qanunauyğunluqlarından",
+      "C) Təlimin qanunauyğunluqlarının ayrı-ayrı fənlərin tədrisinə tətbiq edilməsinin xüsusiyyətlərindən",
+      "D) Fiziki və əqli cəhətdən qüsurlu uşaqların inkişafının psixo-fizioloji xüsusiyyətlərini araşdırmaqdan",
+      "E) Ali təhsil müəssisələrində ali təhsil prosesinin spesifik xüsusiyyətlərini öyrənməkdən"
+    ],
+    correct: "A) Bəşər cəmiyyətin mövcud olduğu zamandan indiyə kimi ayrı-ayrı tarixi dövrlərdə tərbiyəni, məktəbi və pedaqoji nəzəriyyələrin yaranması və inkişafından"
+  },
+  {
+    question: "Tərbiyənin yaranması ilə bağlı nəzəriyyə:",
+    answers: [
+      "A) Fizioloji",
+      "B) Təkamül-bioloji, psixoloji, dini",
+      "C) Pedaqoji",
+      "D) Sosioloji",
+      "E) Kulturoloji"
+    ],
+    correct: "B) Təkamül-bioloji, psixoloji, dini"
+  },
+  {
+    question: "İctimai fəaliyyətin xüsusi sahəsi olan məktəb və tərbiyənin meydana gəlməsi hansı regionun sivilizasiyaları ilə bağlıdır?",
+    answers: [
+      "A) Cənubi Amerika",
+      "B) Qərbi Avropa",
+      "C) Şimali Afrika",
+      "D) Qədim Rus",
+      "E) Qədim Şərq"
+    ],
+    correct: "E) Qədim Şərq"
+  },
+  {
+    question: "İbtidai icma quruluşunun axırlarından başlayaraq əqli əməyin fiziki əməydən ayrılması prosesi yeni bir peşənin meydana gəlməsi ilə nəticələndi:",
+    answers: [
+      "A) Müəllimliyin",
+      "B) Hərbçinin",
+      "C) Astroloqların",
+      "D) Musiqiçilərin",
+      "E) Kahinliyin"
+    ],
+    correct: "A) Müəllimliyin"
+  },
+  {
+    question: "Eramızdan əvvəl III minillikdə Yaxın Şərqdə İkiçay-Dəclə və Fərat çayları arasındakı dövlətlərdə (Şumerdə və Akkadda) meydana gələn məktəblər necə adlanırdı?",
+    answers: [
+      "A) Gimnasiya",
+      "B) Cədvəl evləri (edubba)",
+      "C) Efebiya",
+      "D) Saray məktəbi",
+      "E) Şadlıq evi"
+    ],
+    correct: "B) Cədvəl evləri (edubba)"
+  },
+  {
+    question: "… məktəblərində təlim iki əsas proqram əsasında həyata keçirilirdi. Birinci proqramda elm və texnikaya, ikincidə isə ədəbiyyata, yaradıcılıq qabiliyyətinin inkişafına xüsusi diqqət yetirilirdi.",
+    answers: [
+      "A) Misir",
+      "B) Çin",
+      "C) Şumer",
+      "D) Yunan",
+      "E) Roma"
+    ],
+    correct: "C) Şumer"
+  },
+  {
+    question: "Qədim Misirdə məktəb təhsili ilə bağlı ilk məlumatlar",
+    answers: [
+      "A) Bizim eradan əvvəl I minilliyə təsadüf edir",
+      "B) Bizim eradan əvvəl V minilliyə təsadüf edir",
+      "C) Bizim eradan əvvəl III minilliyə təsadüf edir",
+      "D) Bizim eranın I minilliyinə təsadüf edir",
+      "E) Bizim eradan əvvəl II minilliyə təsadüf edir"
+    ],
+    correct: "C) Bizim eradan əvvəl III minilliyə təsadüf edir"
+  },
+  {
+    question: "Öz fikrini müxtəsər söyləyən, taleyin məhrumiyyətlərinə və əzablarına dözməyi bacara bilən insan … idealı hesab olunurdu",
+    answers: [
+      "A) Qədim misirlilərdə",
+      "B) Romalılarda",
+      "C) Yunanlılarda",
+      "D) Finikiyalılarda",
+      "E) Hindlilərdə"
+    ],
+    correct: "A) Qədim misirlilərdə"
+  },
+  {
+    question: "Eramızdan əvvəl II minilliyin I yarısında Qədim Mesopotamiya çarlığının çiçəklənməsi dövründə təhsil sahəsində aparıcı rolu hansı məktəblər oynayırdı?",
+    answers: [
+      "A) Məhəllə məktəbləri",
+      "B) Kafedral məktəbləri",
+      "C) Kifara məktəbləri",
+      "D) Saray və məbəd məktəbləri",
+      "E) İcma məktəbləri"
+    ],
+    correct: "D) Saray və məbəd məktəbləri"
+  },
+  {
+    question: "Qədim Misirdə məktəbdə şagirdlərin mütiliyinə nail olmaq üçün ən effektli metod hansı hesab olunurdu?",
+    answers: [
+      "A) Fiziki cəza",
+      "B) Yüksək qiymət yazmaq",
+      "C) Rəğbətləndirmə",
+      "D) Mükafat",
+      "E) Tənqid"
+    ],
+    correct: "A) Fiziki cəza"
+  },
+  {
+    question: "Eramızdan əvvəl II-I minillikdə Qədim Hindistanda meydana gələn kasta (silki) quruluşunda aşağıdakı silklərdən hansı hakim silk hesab olunurdu və o silkin nümayəndələri fundamental təhsil alırdı?",
+    answers: [
+      "A) Bayşlar",
+      "B) Kşatralar",
+      "C) Şudralar",
+      "D) Parilər",
+      "E) Braxmanlar"
+    ],
+    correct: "E) Braxmanlar"
+  },
+  {
+    question: "Buddizm pedaqoji ənənələri Çinə hansı ölkədən gəlmişdir?",
+    answers: [
+      "A) Hindistandan",
+      "B) Vyetnamdan",
+      "C) Əfqanıstandan",
+      "D) Filippindən",
+      "E) Tailanddan"
+    ],
+    correct: "A) Hindistandan"
+  },
+  {
+    question: "Qədim Çində pedaqoji fikrin inkişafına ən çox təsir göstərən mütəfəkkir kim olmuşdur?",
+    answers: [
+      "A) Laosizi",
+      "B) Mensizi",
+      "C) Konfusi",
+      "D) Syun-siz",
+      "E) Dyu-gun-şu"
+    ],
+    correct: "C) Konfusi"
+  },
+  {
+    question: "Görüşləri Çində feodal təhsil sisteminin əsasına qoyulan Konfutsinin klassik pedaqoji əsəri necə adlanır?",
+    answers: [
+      "A) «Adətlər kitabı»",
+      "B) «Təlim haqqında qeydlər»",
+      "C) «Orta xətt haqqında təlim»",
+      "D) «Müsahibələr və mühakimələr»",
+      "E) «Beş klassik kitab»"
+    ],
+    correct: "D) «Müsahibələr və mühakimələr»"
+  },
+  {
+    question: "Qədim Çində ilk dəfə hansı əlifbadan istifadə olunmuşdur?",
+    answers: [
+      "A) Latın əlifbasından",
+      "B) Kiril əlifbasından",
+      "C) Heroqlifdən",
+      "D) Ərəb əlifbasından",
+      "E) Əl hərəkətlərindən"
+    ],
+    correct: "C) Heroqlifdən"
+  },
+  {
+    question: "Qədim Spartada böyüməkdə olan spartalıların təlim-tərbiyəsi aşağıdakı hansı yaş mərhələlərində həyata keçirilirdi?",
+    answers: [
+      "A) 7–10, 10–15, 15–20",
+      "B) 7–14, 14–18, 18–25",
+      "C) 7–15, 15–20, 20–30",
+      "D) 7–12, 12–18, 18–24",
+      "E) 8–16, 16–24, 24–32"
+    ],
+    correct: "C) 7–15, 15–20, 20–30"
+  },
+  {
+    question: "Qədim Afina tərbiyə sistemində hansı tip tədris müəssələri yox idi?",
+    answers: [
+      "A) Şəhər məktəbi",
+      "B) Qrammatika, kifara",
+      "C) Palestra",
+      "D) Gimnasiya",
+      "E) Efebiya"
+    ],
+    correct: "A) Şəhər məktəbi"
+  },
+  {
+    question: "Qədim Yunanıstanda min ildən artıq fəaliyyət göstərən və 529-cu ildə imperator Yustinianın sərəncamı ilə bağlanan məktəb hansı idi?",
+    answers: [
+      "A) Universitet",
+      "B) İnstitut",
+      "C) Akademiya",
+      "D) Likey",
+      "E) Kinosarq"
+    ],
+    correct: "C) Akademiya"
+  },
+  {
+    question: "Tərbiyə problemləri ilə ilk dəfə məşğul olan yunan filosofu kim olmuşdur?",
+    answers: [
+      "A) Platon",
+      "B) Aristotel",
+      "C) Sokrat",
+      "D) Demokrit",
+      "E) Heraklit"
+    ],
+    correct: "D) Demokrit"
+  },
+  {
+    question: "Tərbiyə problemləri şərh edilən «Dialoqlar», «Dövlət» və «Qanunlar» əsərləri antik dövrün hansı filosofuna məxsusdur?",
+    answers: [
+      "A) Sokrat",
+      "B) Antisfen",
+      "C) Platon",
+      "D) Demokrit",
+      "E) Ksenefont"
+    ],
+    correct: "C) Platon"
+  },
+  {
+    question: "Sofistlərin, yəni müdriklərin eramızdan əvvəl V-IV əsrlərdə təhsil proqramında aşağıdakı fənlərdən hansı yox idi?",
+    answers: [
+      "A) Dialektika",
+      "B) Fizika",
+      "C) Qrammatika",
+      "D) Hesab",
+      "E) Astranomiya"
+    ],
+    correct: "B) Fizika"
+  },
+  {
+    question: "Eramızdan əvvəl III-I əsrlərdə ellinizm dövründə Yunanıstanda tərbiyə və təhsil sahəsində mühüm dəyişikliklər baş verdiyindən Aristotelin vaxtı ilə təşkil etdiyi fəlsəfə məktəbi hansı ali təhsil müəssisəsinə çevrildi?",
+    answers: [
+      "A) Likey",
+      "B) Akademiya",
+      "C) Efebiya",
+      "D) Stoiklər məktəbi",
+      "E) Epikürçülər məktəbi"
+    ],
+    correct: "A) Likey"
+  },
+  {
+    question: "Roma fəlsəfi və pedaqoji fikrinin görkəmli nümayəndələrindən hansı «Natiqlik təhsili» adlı əsər yazmışdır:",
+    answers: [
+      "A) Seneka",
+      "B) Plutarx",
+      "C) Siseron",
+      "D) Böyük katon",
+      "E) Kvintilian"
+    ],
+    correct: "E) Kvintilian"
+  },
+  {
+    question: "Platon kimi Elladanın tərbiyəçisi hesab etmişdir?",
+    answers: [
+      "A) Esxil",
+      "B) Homer",
+      "C) Qesiod",
+      "D) Sofokl",
+      "E) Evripid"
+    ],
+    correct: "B) Homer"
+  },
+  {
+    question: "425-ci ildə Bizans imperatoru Fedosiinin vaxtında Konstantinopolda ali məktəb necə adlanırdı?",
+    answers: [
+      "A) Universitet",
+      "B) Akademiya",
+      "C) Auditorium",
+      "D) Likey",
+      "E) Efebiya"
+    ],
+    correct: "C) Auditorium"
+  },
+  {
+    question: "VII əsrdə yaranan ərəb əlifbası özündən əvvəl mövcud olan hansı əlifba əsasında yaradılmışdır?",
+    answers: [
+      "A) Aramey",
+      "B) Latın",
+      "C) Yunan",
+      "D) Kiril",
+      "E) Alban"
+    ],
+    correct: "A) Aramey"
+  },
+  {
+    question: "İslam dünyasında təhsilin yayıcısı hansı dil olmuşdur?",
+    answers: [
+      "A) Türk dili",
+      "B) Fars dili",
+      "C) Şumer dili",
+      "D) Ərəb dili",
+      "E) Akkad dili"
+    ],
+    correct: "D) Ərəb dili"
+  },
+  {
+    question: "XI-XVI əsrlərdə Qərbi Avropada pedaqoji elmin inkişafında mühüm rol oynayan, universal fəlsəfə və ilahiyyat hesab olunan «orta əsr məktəb fəlsəfəsi» necə adlanırdı?",
+    answers: [
+      "A) Dualizm",
+      "B) Sensualizm",
+      "C) Sxolastika",
+      "D) Naturalizm",
+      "E) Realizm"
+    ],
+    correct: "C) Sxolastika"
+  },
+  {
+    question: "Avropada xaç yürüşləri dövründə formalaşmış cəngavər tərbiyəsi sisteminin məzmununa yeddi cəngavər bacarığı (məziyyəti) daxil idi. Aşağıda onlardan biri səhv göstərilmişdir?",
+    answers: [
+      "A) Güləş",
+      "B) Qılınc oynatmaq",
+      "C) Nizə atmaq",
+      "D) Üzmək",
+      "E) Şahmat oynamaq"
+    ],
+    correct: "A) Güləş"
+  },
+  {
+    question: "Avropada orta əsr universitetləri neçənci əsrdə meydana gəlmişdir?",
+    answers: [
+      "A) XI əsrdə",
+      "B) X əsrdə",
+      "C) XIII əsrdə",
+      "D) XIV əsrdə",
+      "E) XII əsrdə"
+    ],
+    correct: "E) XII əsrdə"
+  },
+  {
+    question: "Avropada orta əsrlərdə ilk universitet hansı şəhərdə açılmışdır?",
+        answers: [
+      "A) Boloniya",
+      "B) Paris",
+      "C) Paduan",
+      "D) Lissabon",
+      "E) Neapol"
+    ],
+    correct: "A) Boloniya"
+  },
+  {
+    question: "Aşağıda adları qeyd olunanlardan biri intibah dövr pedaqoqlarından deyil?",
+    answers: [
+      "A) Tomas Mor",
+      "B) Erazm Rotterdamski",
+      "C) Con Lokk",
+      "D) Mişel Monten",
+      "E) Tomazzo Kampanella"
+    ],
+    correct: "C) Con Lokk"
+  },
+  {
+    question: "XVI əsrdə Qərbi və Mərkəzi Avropada başlayan geniş ictimai hərəkat olan Reformasiyanın pedaqoji nəzəriyyələrinin təşəkkülündə xüsusi yer rol oynayanlar içərisində bir nəfərin adı səhv göstərilmişdir. O kimdir?",
+    answers: [
+      "A) Martin Kardyer",
+      "B) Uilyam Tindel",
+      "C) Martin Lyüter",
+      "D) Deni Didro",
+      "E) Filip Melenxton"
+    ],
+    correct: "D) Deni Didro"
+  },
+  {
+    question: "XV-XVII əsrlərdə Almanyada meydana gələn ilk gimnaziyaların «atası» kim olmuşdur?",
+    answers: [
+      "A) F. Trosendorf",
+      "B) F. Melenxton",
+      "C) İ.Şturm",
+      "D) İ.Aqrikola",
+      "E) İ.Volf"
+    ],
+    correct: "B) F. Melenxton"
+  },
+  {
+    question: "XVI-XVII əsrlərdə hakim siniflərin tərbiyəsini öz üzərinə götürməklə Avropanın siyasi və ictimai həyatına təsiri öz əllərinə almaq istəyən müəssisələr necə adlanırdı?",
+    answers: [
+      "A) iezuit məktəbləri",
+      "B) qrammatika məktəbləri",
+      "C) saray məktəbləri",
+      "D) kolleclər",
+      "E) şəhər (latın) məktəbləri"
+    ],
+    correct: "A) iezuit məktəbləri"
+  },
+  {
+    question: "X-XIII əsrlərdə Kiyev Rusunun tərbiyə idealları hansı abidədə öz əksini tapmışdır?",
+    answers: [
+      "A) Domostroy",
+      "B) Svatoslav İzorniki",
+      "C) Sestodnev",
+      "D) Vladimir Monomaxın uşaqlara nəsihəti",
+      "E) Pçela"
+    ],
+    correct: "D) Vladimir Monomaxın uşaqlara nəsihəti"
+  },
+  {
+    question: "XVII əsrdə Lixuda qardaşlarının Moskvada açdıqları məktəb necə adlanır?",
+    answers: [
+      "A) Slavyan-Yunan-Latın akademiyası",
+      "B) Mətbəə məktəbi",
+      "C) Yunan-latın məktəbi",
+      "D) Kollegiya",
+      "E) Alman məktəbi"
+    ],
+    correct: "A) Slavyan-Yunan-Latın akademiyası"
+  },
+  {
+    question: "XVI əsrin axırları və XVI əsrin birinci yarısında hansı qardaşlıq məktəbi latın və polyak dillərində aparılan ali təhsil müəssisəsi-Akademiyaya çevrildi?",
+    answers: [
+      "A) Magilyov qardaşlıq məktəbi",
+      "B) Lvov qardaşlıq məktəbi",
+      "C) Vilno qardaşlıq məktəbi",
+      "D) Kiev qardaşlıq məktəbi",
+      "E) Letski qardaşlıq məktəbi"
+    ],
+    correct: "D) Kiev qardaşlıq məktəbi"
+  },
+  {
+    question: "XVI-XVIII əsrlərin pedaqoqları və filosofları içərisində kim müasir pedaqogikanın atası hesab olunur?",
+    answers: [
+      "A) Lokk",
+      "B) R.Dekart",
+      "C) Y.A.Komenski",
+      "D) V.Ratel",
+      "E) F.Bekon"
+    ],
+    correct: "C) Y.A.Komenski"
+  },
+  {
+    question: "İngiltərədə maarifçilik dövrünün mütəfəkkirlərindən biri «Ağ lövhə» (tabula rasa) nəzəriyyəsi işləyib hazırladı. O kim idi?",
+    answers: [
+      "A) Lokk",
+      "B) Petti",
+      "C) Milton",
+      "D) Peyno",
+      "E) Belers"
+    ],
+    correct: "A) Lokk"
+  },
+  {
+    question: "XVI əsrdə şəxsiyyətin təşəkkülündə təhsil və tərbiyənin həlledici rolunu qeyd edən II Yekaterinanın rəğbət bəslədiyi fransız filosofu kim idi?",
+    answers: [
+      "A) K.A.Helvetsi",
+      "B) Ş.Monteskye",
+      "C) D.Didro",
+      "D) F.Volter",
+      "E) E.Kondilyan"
+    ],
+    correct: "C) D.Didro"
+  },
+  {
+    question: "J.J.Russo hansı tərbiyə tərəfdarı olmuşdur ki, məşhur rus yazıçısı L.N.Tolstoy öz pedaqoji fəaliyyətini o ideya əsasında qurmağa çalışmışdır?",
+    answers: [
+      "A) mühafizəkar",
+      "B) avtoritar",
+      "C) Pedosentrik",
+      "D) Azad",
+      "E) liberal"
+    ],
+    correct: "D) Azad"
+  },
+  {
+    question: "Hansı əsərinə görə Fransanın Qanunvericilik yığıncağı Pestalossini Fransanın fəxri vətəndaşı elan etmişdir?",
+    answers: [
+      "A) Linqard və Gertruda",
+      "B) Rahibin axşam saatları",
+      "C) Gertruda öz uşaqlarını necə öyrədir",
+      "D) Qu quşunun nəğməsi",
+      "E) Stonsada olduğum barədə dostuma məktub"
+    ],
+    correct: "A) Linqard və Gertruda"
+  },
+  { 
+    question: "İctimai quruluşu yeni insan xarakterini formalaşdırmaq yolu ilə dəyişdirməyin mümkünlüyünü sosial-pedaqoji eksperiment vasitəsilə sübut etməyə cəhd göstərmiş və uğursuzluqla nəticələnmiş bu eksperiment hansı utopik sosialist tərəfindən həyata keçirilmişdir?",
+    answers: [
+      "A) Ş. Furye",
+      "B) R. Ouen",
+      "C) S. Simon",
+      "D) T. Mor",
+      "E) T. Kampanella"
+    ],
+    correct: "B) R. Ouen"
+  },
+  {
+    question: "Herbatın pedaqoji sistemindən qırmızı xətt kimi keçən hansı ideyadır?",
+    answers: [
+      "A) Əxlaqlı insan formalaşdırmaq",
+      "B) Dərsin strukturu",
+      "C) Tərbiyəedici təlim",
+      "D) Pedaqoji elmin suveren olması",
+      "E) Çoxmaraqlılıq"
+    ],
+    correct: "C) Tərbiyəedici təlim"
+  },
+  {
+    question: "“Tərbiyənin məqsədi və vəzifəsi öz işini ağılla və planlı aparmağı bacaran centlmen yetişdirməkdir” fikri kimə məxsusdur?",
+    answers: [
+      "A) Con Look",
+      "B) Y.A. Komenski",
+      "C) K.D. Uşinski",
+      "D) I.H. Pestalotsi",
+      "E) I.F. Herbart"
+    ],
+    correct: "A) Con Look"
+  },
+  {
+    question: "“Bütün insanların onda doqquzu tərbiyənin nəticəsində xeyirxah, yaxud ziyankar, faydalı, yaxud faydasız olur” fikri kimə məxsusdur?",
+    answers: [
+      "A) Y.A. Komenski",
+      "B) K.D. Uşinski",
+      "C) I.H. Pestalotsi",
+      "D) Con Look",
+      "E) I.F. Herbart"
+    ],
+    correct: "D) Con Look"
+  },
+  {
+    question: "XIX əsrin alman pedaqoqlarından kim təlim və tərbiyənin bir-birilə qarşılıqlı bağlı olan iki prinsipi - təbiətəmüvafiqlik və mədəniyyətəmüvafiqlik prinsiplərini irəli sürmüşdür?",
+    answers: [
+      "A) A. Disterverq",
+      "B) B. Humboldt",
+      "C) F. Frebel",
+      "D) B. Beyn",
+      "E) T. Siller"
+    ],
+    correct: "A) A. Disterverq"
+  },
+  {
+    question: "J.J. Russoya görə dünyanı yeni qaydada qurmaq üçün daha çox nəyə diqqət yetirmək lazımdır?",
+    answers: [
+      "A) yeni insan tərbiyə edilməlidir",
+      "B) cəmiyyət inqilabi yolla dəyişdirilməlidir",
+      "C) yeni pedaqoji əsərlər yazılmalıdır",
+      "D) irsiyyətə üstünlük verilməlidir",
+      "E) yeni məktəb binaları tikilməlidir"
+    ],
+    correct: "A) yeni insan tərbiyə edilməlidir"
+  },
+  {
+    question: "XIX əsrin əvvəllərində Rusiyada Xalq Maarifi Nazirliyi tərəfindən «Xalq Maarifinin ilkin qaydaları» neçənci ildə qəbul edilmişdir?",
+    answers: [
+      "A) 1804",
+      "B) 1805",
+      "C) 1812",
+      "D) 1815",
+      "E) 1803"
+    ],
+    correct: "E) 1803"
+  },
+  {
+    question: "XIX əsrdə Rusiyada «Tədris müəssisələrinin və universitetlərin nizamnaməsi» neçənci ildə qəbul edilmişdir?",
+    answers: [
+      "A) 1803",
+      "B) 1805",
+      "C) 1807",
+      "D) 1804",
+      "E) 1811"
+    ],
+    correct: "D) 1804"
+  },
+  {
+    question: "1804-cü ilin məktəb nizamnaməsinə görə, Rusiya 6 təlim dairəsinə bölünmüşdü. Həmin cərgəni tapın.",
+    answers: [
+      "A) Moskva, Tiflis, Riqa, Tula, Kerç, Kazan",
+      "B) Kazan, Xarkov, Derpit, Tula, Moskva, Yaroslavl",
+      "C) Moskva, Peterburq, Kerç, Kazan, Tula, Tiflis",
+      "D) Moskva, Peterburq, Kazan, Xarkov, Derpit, Vilno",
+      "E) Moskva, Peterburq, Kazan, Xarkov, Vilno, Yaroslavl"
+    ],
+    correct: "D) Moskva, Peterburq, Kazan, Xarkov, Derpit, Vilno"
+  },
+  {
+    question: "XIX əsrin əvvəllərində Rusiyada məktəb sistemində təhsilin dörd pilləsi nəzərdə tutulmuşdu. Ardıcıllıqla düzülmüş bəndi tapın.",
+    answers: [
+      "A) qəza məktəbləri, gimnaziya, universitet, məhəllə məktəbləri",
+      "B) məhəllə məktəbləri, qəza məktəbləri, gimnaziya, universitet",
+      "C) universitet, qəza məktəbləri, gimnaziya, məhəllə məktəbləri",
+      "D) məhəllə məktəbləri, universitet, qəza məktəbləri, gimnaziya",
+      "E) məhəllə məktəbləri, qəza məktəbləri, universitet, gimnaziya"
+    ],
+    correct: "B) məhəllə məktəbləri, qəza məktəbləri, gimnaziya, universitet"
+  },
+  {
+    question: "XIX əsrdə hansı nizamnaməyə görə şəhər və kəndlərdə tədris müddəti 1 il olan məhəllə məktəbləri, qəza və quberniya şəhərlərində isə təhsil müddəti 2 il olan qəza məktəbləri açıla bilərdi?",
+    answers: [
+      "A) 1803-cü il nizamnaməsi",
+      "B) 1807-ci il nizamnaməsi",
+      "C) 1811-ci il nizamnaməsi",
+      "D) 1804-cü il nizamnaməsi",
+      "E) 1812-ci il nizamnaməsi"
+    ],
+    correct: "D) 1804-cü il nizamnaməsi"
+  },
+  {
+    question: "«Uşaq ruhu ağ lövhə deyil, ağac olmaq imkanı olan toxumdur, imkanlara malik insandır» fikri XIX əsr rus pedaqoqlarından kimə məxsusdur?",
+    answers: [
+      "A) A.İ. Gertsen",
+      "B) V.Q. Belinski",
+      "C) K.D. Uşinski",
+      "D) S.S. Uvarov",
+      "E) M.L. Maqnitski"
+    ],
+    correct: "B) V.Q. Belinski"
+  },
+  {
+    question: "Hansı nizamnaməyə görə, Rusiyada universitetlərin muxtariyyət hüquqları ləğv edildi. Universitet Şurasının hüququ məhdudlaşdırıldı, universitetlərdə klassizim gücləndirildi, tədris haqqı artırıldı, universitet təhsilli gənclərin xaricə ezamı qadağan edildi?",
+    answers: [
+      "A) 1833",
+      "B) 1835",
+      "C) 1804",
+      "D) 1819",
+      "E) 1836"
+    ],
+    correct: "B) 1835"
+  },
+  {
+    question: "Görkəmli rus pedaqoqu … Qərbi Avropa pedaqoji fikrinin, məktəb təhsilinin qızğın təbliğatçısı olsa da Russonun azad tərbiyə ilə bağlı romantik ideyalarını bəyənmir, uşağın ətraf aləmdən təcrid olunmasını tənqid edirdi.",
+    answers: [
+      "A) V.Q. Belinski",
+      "B) K.D. Uşinski",
+      "C) S.S. Uvarov",
+      "D) A.İ. Gertsen",
+      "E) M.L. Maqnitski"
+    ],
+    correct: "D) A.İ. Gertsen"
+  },
+  {
+    question: "Bu əsasnamə 1828-ci ilin nizamnaməsindən bir neçə cəhətinə görə fərqlənirdi: burada silkilik ləğv edilir, dini məhdudluq aradan qaldırılır:, zemstovlara, cəmiyyətlərə və xüsusi şəxslərə ibtidai məktəblər açmaq imkanı verilir; müəllimlik fəaliyyətinə yalnız kişilərin deyil, qadınların da buraxılmasına icazə verildi.",
+    answers: [
+      "A) 1864-cü il nizamnaməsi",
+      "B) 1835-ci il nizamnaməsi",
+      "C) 1804-cü il nizamnaməsi",
+      "D) 1811-ci il nizamnaməsi",
+      "E) 1812-ci il nizamnaməsi"
+    ],
+    correct: "A) 1864-cü il nizamnaməsi"
+  },
+  {
+    question: "1864-cü il nizamnaməsinə görə, Rusiyada orta təhsil verən gimnaziyalar 3 tipə bölünürdü.",
+    answers: [
+      "A) xüsusi gimnaziya, ümumi gimnaziya, orta gimnaziya",
+      "B) peşə gimnaziyası, klassik gimnaziya, real gimnaziya",
+      "C) iki qədim dilli klassik gimnaziya, bir qədim dilli klassik gimnaziya, qədim dillərin əvəzinə iki yeni dil keçilən real gimnaziya",
+      "D) klassik progimnaziya, real progimnaziya, peşə gimnaziyası",
+      "E) fizika-riyaziyyat gimnaziyası, xüsusi gimnaziya, qadın gimnaziya"
+    ],
+    correct: "C) iki qədim dilli klassik gimnaziya, bir qədim dilli klassik gimnaziya, qədim dillərin əvəzinə iki yeni dil keçilən real gimnaziya"
+  },
+  {
+    question: "Rusiyada 1874-cü il ildə qəbul olunmuş gimnaziyaların yeni nizamnaməsinə görə:",
+    answers: [
+      "A) gimnaziyaların tədris planında fizika və riyaziyyat fənləri 80%-dən çox yer tuturdu",
+      "B) rus dilinə, tarixə, coğrafiyaya çox saat verilirdi",
+      "C) real gimnaziyaların əvəzinə xüsusi gimnaziyalar təşkil olundu",
+      "D) qrammatik təhsilə, rus dilindən latın və yunan dillərinə tərcüməyə diqqət verilmirdi",
+      "E) orta məktəblərdə klassik fənlərin sayı artdı, klassisizm gücləndirildi, bütün oğlan gimnaziyaları klassik gimnaziyalara çevrildi"
+    ],
+    correct: "E) orta məktəblərdə klassik fənlərin sayı artdı, klassisizm gücləndirildi, bütün oğlan gimnaziyaları klassik gimnaziyalara çevrildi"
+  },
+  {
+    question: "XIX əsrdə Rusiyada tərtib olunan «Müəllim seminariyasının layihəsi»nin müəllifi kimdir?",
+    answers: [
+      "A) L.N. Tolstoy",
+      "B) D.A. Tolstoy",
+      "C) N.İ. Piroqov",
+      "D) K.D. Uşinski",
+      "E) V.Q. Belinski"
+    ],
+    correct: "D) K.D. Uşinski"
+  },
+  {
+    question: "1917-ci ilin yanvarın 1-nə kimi Rusiyada neçə müəllim seminariyası var idi?",
+    answers: [
+      "A) 171",
+      "B) 170",
+      "C) 169",
+      "D) 186",
+      "E) 24"
+    ],
+    correct: "A) 171"
+  },
+  {
+    question: "XIX əsrin II yarısında Rusiyada aşağıdakı cərəyanlar var idi:",
+    answers: [
+      "A) osmanlı maarif cərəyanı, kitab cəmiyyəti, ziyalılar cəmiyyəti",
+      "B) üsuli-cədid cərəyanı, Rusiya müsəlmanları, tərəqqi və maarif cərəyanı",
+      "C) osmanlı maarif cərəyanı, liberal burjua cərəyan, tərəqqi və maarif cərəyanı",
+      "D) inqilabi-demokratik pedaqoji cərəyan, liberal burjua cərəyan, burjua-demokratik pedaqoji cərəyan",
+      "E) üsuli-cədid, kitab cəmiyyəti, burjua-demokratik pedaqoji cərəyan"
+    ],
+    correct: "D) inqilabi-demokratik pedaqoji cərəyan, liberal burjua cərəyan, burjua-demokratik pedaqoji cərəyan"
+  },
+  {
+    question: "O, Moskva Universitetinin tibb fakültəsini bitirmiş, Derpt Universitetinin, Peterburq Tibbi Cərrahiyə Akademiyasınının professoru, Odessa təlim dairəsinin popeçiteli olmuş, “Həyat məsələləri” adlı məqaləsi o dövrdə Rusiyada nəşr olunan nüfuzlu pedaqoji orqanların hamısında təkrar nəşr olunmuşdu.",
+    answers: [
+      "A) N.İ. Piroqov",
+      "B) L.N. Tolstoy",
+      "C) D.A. Tolstoy",
+      "D) K.D. Uşinski",
+      "E) V.Q. Belinski"
+    ],
+    correct: "A) N.İ. Piroqov"
+  },
+  {
+    question: "N.İ. Piroqovun hansı məqaləsində tərbiyənin vəzifəsinə, xarakterinə, əhəmiyyətinə münasibət bildirilmişdir?",
+    answers: [
+      "A) Təlim metodları",
+      "B) Tərbiyənin vəzifələri",
+      "C) Həyat məsələləri",
+      "D) İnsan tərbiyənin predmetidir",
+      "E) Tərbiyə haqqında fikirlər"
+    ],
+    correct: "C) Həyat məsələləri"
+  },
+  {
+    question: "Real progimnaziyaların klassik progimnaziyalardan fərqi nə idi?",
+    answers: [
+      "A) Real progimnaziyalar gəncləri universitetlərə klassik progimnaziyalar isə akademiyalara hazırlayırdı",
+      "B) Real progimnaziyanı bitirənlər həm universitetlərə, həm də ali ixtisas tədris müəssisələrinə gedə bilərdilər",
+      "C) Real progimnaziyalar 5 illik, klassik progimnaziyalar isə 3 illik idi",
+      "D) Real progimnaziyaların tədris planından fərqli olaraq klassik progimnaziyaların tədris planında iki yeni xarici dilin əvəzinə bir yeni xarici dil, üçüncü sinifdə latın dili, dördüncü sinifdə yunan dili tədris edilirdi",
+      "E) Klassik progimnaziyaları bitirənlər real progimnaziyalara, real progimnaziyaları bitirənlər isə klassik progimnaziyalara daxil ola bilərdi"
+    ],
+    correct: "D) Real progimnaziyaların tədris planından fərqli olaraq klassik progimnaziyaların tədris planında iki yeni xarici dilin əvəzinə bir yeni xarici dil, üçüncü sinifdə latın dili, dördüncü sinifdə yunan dili tədris edilirdi"
+  },
+  {
+    question: "“Uşaqları döymək və həm də başqa uşaqların qarşısında döymək olarmı?” məqaləsinin müəllifi kimdir?",
+    answers: [
+      "A) N.İ. Piroqov",
+      "B) L.N. Tolstoy",
+      "C) D.A. Tolstoy",
+      "D) K.D. Uşinski",
+      "E) V.Q. Belinski"
+    ],
+    correct: "A) N.İ. Piroqov"
+  },
+  {
+    question: "N.İ. Piroqov əxlaq tərbiyəsinə nələri daxil edirdi?",
+    answers: [
+      "A) cəzalandırma, rəğbətləndirmə, döymə, töhmət vermək",
+      "B) töhmət, məzəmmət, tərif, mükafat, inandırma və nümunə",
+      "C) rəhm və qayğı ilə döymək, cəzalandırma, rəğbətləndirmə, mükafat",
+      "D) inandırma, fiziki cəza, kütləvi tədbirlər, əxlaqi söhbət",
+      "E) əxlaqi söhbət, töhmət vermək, rəhm və qayğı ilə döymək"
+    ],
+    correct: "B) töhmət, məzəmmət, tərif, mükafat, inandırma və nümunə"
+  },
+  {
+    question: "O, Universitetə daxil olmaq üçün qəbul imtahanlarının əleyhinə idi, deyirdi ki, orta məktəbin buraxılış imtahanı ilə ali məktəbin qəbul imtahanı birləşdirilməlidir və bu imtahanlar ali məktəblərin nümayəndələrinin iştirakı ilə getməli, universitetlərə geniş müxtariyyət verilməlidir.",
+    answers: [
+      "A) N.İ. Piroqov",
+      "B) L.N. Tolstoy",
+      "C) D.A. Tolstoy",
+      "D) K.D. Uşinski",
+      "E) V.Q. Belinski"
+    ],
+    correct: "A) N.İ. Piroqov"
+  },
+  {
+    question: "Rusiyada kilsəni dövlətdən, məktəbi kilsədən ayıran dekret verilib:",
+    answers: [
+      "A) 1921",
+      "B) 1919",
+      "C) 1917",
+      "D) 1918",
+      "E) 1924"
+    ],
+    correct: "D) 1918"
+  },
+  {
+    question: "Sovet məktəbinin ilk tədris plan və proqramları neçənci ildə qəbul edildi?",
+    answers: [
+      "A) 1918",
+      "B) 1920",
+      "C) 1921",
+      "D) 1919",
+      "E) 1922"
+    ],
+    correct: "B) 1920"
+  },
+  {
+    question: "1921-ci ildə tədris müddəti 4 il olan hansı məktəb yaradıldı?",
+    answers: [
+      "A) Fabrik-zavod şagirdliyi",
+      "B) Kəndli gənclər məktəbi",
+      "C) Fabrik-zavod yeddiilliyi",
+      "D) Birdərəcəli məktəb",
+      "E) Doqquzillik məktəb"
+    ],
+    correct: "A) Fabrik-zavod şagirdliyi"
+  },
+  {
+    question: "1934-cü ildə qəbul edilən “İbtidai və orta məktəblərin quruluşu haqqında” qərarda məktəb sistemi aşağıdakı kimi formalaşdırıldı.",
+    answers: [
+      "A) ibtidai məktəb, yeddiillik məktəb, fabrik-zavod şagirdliyi",
+      "B) fabrik-zavod şagirdliyi, yeddiillik məktəb, ibtidai məktəb",
+      "C) ibtidai məktəb, orta məktəb, ali məktəb",
+      "D) ibtidai məktəb, natamam orta məktəb, tam orta məktəb",
+      "E) yeddiillik məktəb, doqquzillik məktəb, kəndli gənclər məktəbi"
+    ],
+    correct: "D) ibtidai məktəb, natamam orta məktəb, tam orta məktəb"
+  },
+  {
+    question: "“İbtidai məktəb, natamam orta məktəb, tam orta məktəb” kimi müəyyənləşdirilən məktəb sistemi 30-cu illərdə hansı qərarda öz əksini tapmışdı?",
+    answers: [
+      "A) “İbtidai və orta məktəblərin quruluşu haqqında” qərar",
+      "B) “Vahid əmək məktəbi haqqında əsasnamə”",
+      "C) “İcbari ibtidai təhsil haqqında” qanun",
+      "D) “İbtidai və orta məktəblərinin dərs proqramları və rejmlər haqqında” qanun",
+      "E) “Köhnə orta və ibtidai məktəb tiplərini politexnik məktəblə əvəz etmək haqqında” qanun"
+    ],
+    correct: "A) “İbtidai və orta məktəblərin quruluşu haqqında” qərar"
+  },
+  {
+    question: "RSFSR Pedaqoji Elmlər Akademiyası neçənci ildə təşkil olunbub?",
+    answers: [
+      "A) 1945",
+      "B) 1963",
+      "C) 1943",
+      "D) 1942",
+      "E) 1941"
+    ],
+    correct: "C) 1943"
+  },
+  {
+    question: "Bu qanun əsasında ümumtəhsil orta məktəbləri 11 illik istehsalat təhsili verən ümumtəhsil məktəblərinə çevrildi.",
+    answers: [
+      "A) “İbtidai və orta məktəblərin quruluşu haqqında” qanun",
+      "B) “İcbari ibtidai təhsil haqqında” qanun",
+      "C) “Məktəbin həyatla əlaqəsini möhkəmləndirmək və SSRİ-də xalq maarif sistemini daha da inkişaf etdirmək haqqında” qanun",
+      "D) “İbtidai və orta məktəblərinin dərs proqramları və rejmlər haqqında” qanun",
+      "E) “Köhnə orta və ibtidai məktəb tiplərini politexnik məktəblə əvəz etmək haqqında” qanun"
+    ],
+    correct: "C) “Məktəbin həyatla əlaqəsini möhkəmləndirmək və SSRİ-də xalq maarif sistemini daha da inkişaf etdirmək haqqında” qanun"
+  },
+  {
+    question: "Onun pedaqoji sisteminin əsas tələbi kollektivdə, kollektiv vasitəsilə, kollektiv üçün tərbiyə prinsipidir.",
+    answers: [
+      "A) A.S. Makarenko",
+      "B) A.V. Lunaçarski",
+      "C) S.T. Şatski",
+      "D) P.P. Blonski",
+      "E) A.P. Pinkeviç"
+    ],
+    correct: "A) A.S. Makarenko"
+  },
+  {
+    question: "A.S. Makarenkonun tərbiyə sistemində hansı prinsip mühüm yer tutur?",
+    answers: [
+      "A) cəzalandırma",
+      "B) rəğbətləndirmə",
+      "C) məsul iş tapşırmaq",
+      "D) paralel təsir",
+      "E) ictimai rəy"
+    ],
+    correct: "D) paralel təsir"
+  },
+  {
+    question: "“Perspektiv xətlər sistemi”nin müəllifi kimdir?",
+    answers: [
+      "A) A.V. Lunaçarski",
+      "B) S.T. Şatski",
+      "C) P.P. Blonski",
+      "D) A.P. Pinkeviç",
+      "E) A.S. Makarenko"
+    ],
+    correct: "E) A.S. Makarenko"
+  },
+  {
+    question: "“Kollektiv mütəşəkkil şəxslərin, kollektiv orqanlara malik şəxsiyyətlərin məqsədəyönəlmiş kompleksidir…” fikrinin müəllifi kimdir?",
+    answers: [
+      "A) A.V.Lunaçarski",
+      "B) S.T.Şatski",
+      "C) A.S.Makarenko",
+      "D) P.P.Blonski",
+      "E) A.P.Pinkeviç"
+    ],
+    correct: "C) A.S.Makarenko"
+  },
+  {
+    question: "A.S.Makarenko rəğbətləndirməyə nələri daxil edirdi:",
+    answers: [
+      "A) tərifləmək, mükafat vermək, şəklini divar qəzetinə vurmaq",
+      "B) kitab bağışlamaq, hədiyyə vermək, şifahi təşəkkür vermək",
+      "C) tərifləmək, müəllimin tərifi, fəxri adlar vermək, fərqlənmə nişanları vermək",
+      "D) müəllimin tərifi, yoldaşların ehtiramı, əmrlə təşəkkür vermək, uşaqlara məsul iş tapşırmaq",
+      "E) mükafat vermək, yoldaşların qarşısında tərifləmək, xüsusi partalarda oturtmaq"
+    ],
+    correct: "D) müəllimin tərifi, yoldaşların ehtiramı, əmrlə təşəkkür vermək, uşaqlara məsul iş tapşırmaq"
+  },
+  {
+    question: "A.S.Makarenko nələri fiziki tərbiyənin vasitələri hesab edirdi?",
+    answers: [
+      "A) gəzinti, qaçış, nizə atmaq",
+      "B) turizm, atla çapmaq, üzmək",
+      "C) idman, tullanmaq",
+      "D) gəzinti, turizm, oyun, idman, gimnastika",
+      "E) gimnastika, hədəfi vurmaq"
+    ],
+    correct: "D) gəzinti, turizm, oyun, idman, gimnastika"
+  },
+  {
+    question: "“Pedaqoji poema”nın müəllifi kimdir?",
+    answers: [
+      "A) A.S.Makarenko",
+      "B) S.T.Şatski",
+      "C) A.P.Pinkeviç",
+      "D) A.V.Lunaçariski",
+      "E) P.P.Bonski"
+    ],
+    correct: "A) A.S.Makarenko"
+  },
+  {
+    question: "Bu filosofun ideal dövlət modelində üç ictimai qrup mövcud idi: filosoflar, döyüşçülər, sənətkarlar və əkinçilər",
+    answers: [
+      "A) Demokrit",
+      "B) Sokrat",
+      "C) Seneka",
+      "D) Platon",
+      "E) Aristotel"
+    ],
+    correct: "D) Platon"
+  },
+  {
+    question: "Forma və məzmununun vəhdəti əsasında inkişaf ideyasını irəli sürən alim:",
+    answers: [
+      "A) Demokrit",
+      "B) Platon",
+      "C) Sokrat",
+      "D) Seneka",
+      "E) Aristotel"
+    ],
+    correct: "B) Platon"
+  },
+  {
+    question: "Aristotelin ilk müəllimi kim olmuşdur?",
+    answers: [
+      "A) Platon",
+      "B) Demokrit",
+      "C) Sokrat",
+      "D) Vittorino da Feltre",
+      "E) Fransua Rable"
+    ],
+    correct: "A) Platon"
+  },
+  {
+    question: "Uşaqların yaş dövrünün ilk elmi təsnifatını kim irəli sürmüşdür?",
+    answers: [
+      "A) Aristotel",
+      "B) Yan Amos Komenski",
+      "C) Jan Jak Russo",
+      "D) Tomas Mor",
+      "E) Mark Fabiy Kvintilian"
+    ],
+    correct: "A) Aristotel"
+  },
+  {
+    question: "Aristotel nə üçün uşağın 7 yaşa qədər olan dövrünü “bitki dövrü” adlandırır?",
+    answers: [
+      "A) uşaqların təbiətin bir parçası olduğu üçün",
+      "B) uşaqların o yaşda həyatı düzgün dərk etməsi üçün",
+      "C) uşaqların bitkiləri çox sevdiyi üçün",
+      "D) uşaqların tərbiyəyə ehtiyacı olduğu üçün",
+      "E) körpə uşaqların bitkilər kimi qulluğa ehtiyacı olduğu üçün"
+    ],
+    correct: "E) körpə uşaqların bitkilər kimi qulluğa ehtiyacı olduğu üçün"
+  },
+  {
+    question: "Aristotelə görə 7-14 yaşa qədər olan “heyvani dövr”də uşaqlarda nəyi tərbiyə etmək lazımdır?",
+    answers: [
+      "A) iradi keyfiyyətlər",
+      "B) əmək tərbiyəsi",
+      "C) fiziki, əqli və əxlaqi tərbiyə",
+      "D) estetik tərbiyə",
+      "E) təbiəti uşaqlara sevdirmək"
+    ],
+    correct: "A) iradi keyfiyyətlər"
+  },
+  {
+    question: "Aristotelə görə 14-21 yaşa qədər olan “insani dövr”də gənclərə hansı tərbiyə vermək lazımdır?",
+    answers: [
+      "A) əxlaq tərbiyəsi",
+      "B) ekoloji tərbiyə",
+      "C) əqli tərbiyə",
+      "D) fiziki və əmək tərbiyəsi",
+      "E) iqtisadi tərbiyə"
+    ],
+    correct: "C) əqli tərbiyə"
+  },
+  {
+    question: "Qədim Romada tərbiyənin əsas vəzifəsi nə idi?",
+    answers: [
+      "A) savadlı müəllim, həkim, mühəndis yetişdirmək",
+      "B) hüquqşünas, iqtisadçı, həkim yetişdirmək",
+      "C) bacarıqlı əkinçi, qüvvətli döyüşçü, dindar şəxs tərbiyə etmək",
+      "D) mühəndis, tacir, dindar şəxs yetişdirmək",
+      "E) savadlı alim, idmançı, cəld döyüşçü tərbiyə etmək"
+    ],
+    correct: "C) bacarıqlı əkinçi, qüvvətli döyüşçü, dindar şəxs tərbiyə etmək"
+  },
+  {
+    question: "İlk dəfə “təbiətlə tərbiyə oxşardır” fikrini hansı filosof söyləmişdir?",
+    answers: [
+      "A) Demokrit",
+      "B) Aristotel",
+      "C) Platon",
+      "D) Y.A.Komenski",
+      "E) K.A.Helvetsi"
+    ],
+    correct: "A) Demokrit"
+  },
+  {
+    question: "Roma respublikasının son dövründə hansı məktəblər əmələ gəldi?",
+    answers: [
+      "A) ibtidai məktəblər",
+      "B) kifara musiqi məktəbləri",
+      "C) ritorika məktəbləri",
+      "D) idman məktəbləri",
+      "E) icma məktəbləri"
+    ],
+    correct: "C) ritorika məktəbləri"
+  },
+  {
+    question: "Qədim Romada əyanlar hansı dildə danışmağa üstünlük verirdilər?",
+    answers: [
+      "A) yunan dilində",
+      "B) latın dilində",
+      "C) fransız dilində",
+      "D) ingilis dilində",
+      "E) italyan dilində"
+    ],
+    correct: "A) yunan dilində"
+  },
+  {
+    question: "M.F.Kvintilian uşaqlarda ən çox nəyə yüksək qiymət verirdi?",
+    answers: [
+      "A) şagirdlərin sağlamlığına",
+      "B) savad almalarına",
+      "C) təbii istedada",
+      "D) tərbiyə olunmasına",
+      "E) dini baxışlarına"
+    ],
+    correct: "C) təbii istedada"
+  },
+  {
+    question: "Qərbi Avropa ölkələrində pedaqogikanın məqsədi nədən ibarət idi?",
+    answers: [
+      "A) ideal dindar şəxsiyyət tərbiyəsinin nəzəri məsələlərini işləyib hazırlamaq",
+      "B) kamil insan yetişdirmək",
+      "C) məktəblərdə dini təbliğ etmək",
+      "D) kilsələrə xadimlər hazırlamaq",
+      "E) dini tərbiyəni təkmilləşdirmək"
+    ],
+    correct: "A) ideal dindar şəxsiyyət tərbiyəsinin nəzəri məsələlərini işləyib hazırlamaq"
+  },
+  {
+    question: "“Günəş şəhəri” əsərini kim yazıb?",
+    answers: [
+      "A) Dante Aligeri",
+      "B) Mişel de Monten",
+      "C) Fransua Rable",
+      "D) Xuan Luis Vives",
+      "E) Tomazo Kampanella"
+    ],
+    correct: "E) Tomazo Kampanella"
+  },
+  {
+    question: "“Qarqantua və Pantaqruel” əsərinin müəllifi kimdir?",
+    answers: [
+      "A) Françesko Petrarka",
+      "B) Dante Aligeri",
+      "C) Tomazo Kampanella",
+      "D) Fransua Rable",
+      "E) Vittorino de Feltre"
+    ],
+    correct: "D) Fransua Rable"
+  },
+  {
+    question: "Vittorino de Feltre XV əsrin 20-ci illərində təşkil etdiyi məktəbə belə ad vermişdir.",
+    answers: [
+      "A) “Tərbiyə evi”",
+      "B) “Təhsil evi”",
+      "C) “Təlim evi”",
+      "D) “Şadlıq evi”",
+      "E) “Əyləncə sarayı”"
+    ],
+    correct: "D) “Şadlıq evi”"
+  }
+];
 
 
 
@@ -1029,7 +1132,7 @@ let sual =document.getElementById("sual")
 let so_sual=document.getElementById("so_sual")
 let ev_sual=document.getElementById("ev_sual")
 let question = document.getElementById("question")
-let d=40
+let d=75
 let D_Y=document.getElementById("D_Y")
 
 let btn_A=document.getElementById("btn_A")
@@ -1085,6 +1188,11 @@ ev_sual.addEventListener("click",()=>{
 btn_A.addEventListener("click",()=>{
     // variant = "A"
     variant = questions[d-2].answers[0]
+    btn_A.classList.add("selected")
+    btn_B.classList.remove("selected")
+    btn_C.classList.remove("selected")
+    btn_D.classList.remove("selected")
+    btn_E.classList.remove("selected")
     btn_B.disabled=true
     btn_C.disabled=true
     btn_D.disabled=true
@@ -1092,6 +1200,11 @@ btn_A.addEventListener("click",()=>{
 })
 btn_B.addEventListener("click",()=>{
     // variant = "B"
+    btn_B.classList.add("selected")
+    btn_A.classList.remove("selected")
+    btn_C.classList.remove("selected")
+    btn_D.classList.remove("selected")
+    btn_E.classList.remove("selected")
     variant = questions[d-2].answers[1]
     btn_A.disabled=true
     btn_C.disabled=true
@@ -1100,6 +1213,11 @@ btn_B.addEventListener("click",()=>{
 })
 btn_C.addEventListener("click",()=>{
     // variant = "C"
+    btn_C.classList.add("selected")
+    btn_B.classList.remove("selected")
+    btn_A.classList.remove("selected")
+    btn_D.classList.remove("selected")
+    btn_E.classList.remove("selected")
     variant = questions[d-2].answers[2]
     btn_A.disabled=true
     btn_B.disabled=true
@@ -1107,6 +1225,11 @@ btn_C.addEventListener("click",()=>{
     btn_E.disabled=true
 })
 btn_D.addEventListener("click",()=>{
+    btn_D.classList.add("selected")
+    btn_B.classList.remove("selected")
+    btn_C.classList.remove("selected")
+    btn_A.classList.remove("selected")
+    btn_E.classList.remove("selected")
     variant = questions[d-2].answers[3]
     btn_A.disabled=true
     btn_B.disabled=true
@@ -1114,6 +1237,11 @@ btn_D.addEventListener("click",()=>{
     btn_E.disabled=true
 })
 btn_E.addEventListener("click",()=>{
+  btn_E.classList.add("selected")
+  btn_B.classList.remove("selected")
+  btn_C.classList.remove("selected")
+  btn_D.classList.remove("selected")
+  btn_A.classList.remove("selected")
   variant = questions[d-2].answers[4]
   btn_A.disabled=true
   btn_B.disabled=true

@@ -16,6 +16,9 @@
     align-items: center;
     gap: 15px;
 }
+.btn_div button{
+    padding: 9px;
+}
 .btn_div{
     margin-top: 25px;
 }
