@@ -1132,7 +1132,7 @@ let sual =document.getElementById("sual")
 let so_sual=document.getElementById("so_sual")
 let ev_sual=document.getElementById("ev_sual")
 let question = document.getElementById("question")
-let d=75
+let d=2
 let D_Y=document.getElementById("D_Y")
 
 let btn_A=document.getElementById("btn_A")
