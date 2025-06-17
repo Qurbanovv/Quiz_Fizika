@@ -1114,6 +1114,7 @@ const questions = [
 
 
 
+let answersGiven = new Array(questions.length).fill(null); // hər sual üçün null başlanğıc
 
 
 let currentIndex = 0;
@@ -1154,21 +1155,42 @@ function selectAnswer(index) {
   });
 });
 
+
 yoxla.addEventListener("click", () => {
-  if (!selectedAnswer) return;
+    if (!selectedAnswer) return;
+  
+    const correct = questions[currentIndex].correct;
+  
+    // Cavabı yadda saxla
+    answersGiven[currentIndex] = selectedAnswer;
+  
+    if (selectedAnswer === correct) {
+      sec.style.borderColor = "green";
+      D_Y.textContent = "Doğru";
+      D_Y.style.color = "green";
+    } else {
+      sec.style.borderColor = "red";
+      D_Y.textContent = "Səhv";
+      D_Y.style.color = "red";
+    }
+  });
 
-  const correct = questions[currentIndex].correct;
 
-  if (selectedAnswer === correct) {
-    sec.style.borderColor = "green";
-    D_Y.textContent = "Doğru";
-    D_Y.style.color = "green";
-  } else {
-    sec.style.borderColor = "red";
-    D_Y.textContent = "Səhv";
-    D_Y.style.color = "red";
-  }
-});
+  const resultArea = document.getElementById("result_area");
+  const showResultBtn = document.getElementById("show_result");
+  
+  showResultBtn.addEventListener("click", () => {
+    let correctCount = 0;
+  
+    for (let i = 0; i < questions.length; i++) {
+      if (answersGiven[i] === questions[i].correct) {
+        correctCount++;
+      }
+    }
+  
+    resultArea.textContent = `Sən ${questions.length} sualdan ${correctCount} düzgün cavab verdin.`;
+  });
+  
 
 // İrəli
 so_sual.addEventListener("click", () => {
