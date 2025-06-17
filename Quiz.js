@@ -1116,171 +1116,428 @@ const questions = [
 
 
 
+// const questions =[
+//   {
+//     question: "“Günəş şəhəri” əsərini kim yazıb?",
+//     answers: [
+//       "A) Dante Aligeri",
+//       "B) Mişel de Monten",
+//       "C) Fransua Rable",
+//       "D) Xuan Luis Vives",
+//       "E) Tomazo Kampanella"
+//     ],
+//     correct: "E) Tomazo Kampanella"
+//   },
+//   {
+//     question: "“Qarqantua və Pantaqruel” əsərinin müəllifi kimdir?",
+//     answers: [
+//       "A) Françesko Petrarka",
+//       "B) Dante Aligeri",
+//       "C) Tomazo Kampanella",
+//       "D) Fransua Rable",
+//       "E) Vittorino de Feltre"
+//     ],
+//     correct: "D) Fransua Rable"
+//   },
+//   {
+//     question: "Vittorino de Feltre XV əsrin 20-ci illərində təşkil etdiyi məktəbə belə ad vermişdir.",
+//     answers: [
+//       "A) “Tərbiyə evi”",
+//       "B) “Təhsil evi”",
+//       "C) “Təlim evi”",
+//       "D) “Şadlıq evi”",
+//       "E) “Əyləncə sarayı”"
+//     ],
+//     correct: "D) “Şadlıq evi”"
+//   }
+// ]
+
+// console.log(questions.length)
+// // console.log(questions2.length)
+// // console.log(questions2[13])
 
 
-console.log(questions.length)
-// console.log(questions2.length)
-// console.log(questions2[13])
+
+// let sec = document.getElementById("sec")
+// let sual =document.getElementById("sual")
+// // for(let j=1;j<=questions.length;j++){
+// //     sual.textContent=`Sual ${j}`
+// // }
+// let so_sual=document.getElementById("so_sual")
+// let ev_sual=document.getElementById("ev_sual")
+// let question = document.getElementById("question")
+// let d=2
+// let D_Y=document.getElementById("D_Y")
+
+// let btn_A=document.getElementById("btn_A")
+// let btn_B=document.getElementById("btn_B")
+// let btn_C=document.getElementById("btn_C")
+// let btn_D=document.getElementById("btn_D")
+// let btn_E=document.getElementById("btn_E")
+// let yoxla = document.getElementById("yoxla")
+// let variant 
+
+// sual.textContent=`Sual ${1}`
+// btn_A.textContent=`${questions[0].answers[0]}`
+// btn_B.textContent=`${questions[0].answers[1]}`
+// btn_C.textContent=`${questions[0].answers[2]}`
+// btn_D.textContent=`${questions[0].answers[3]}`
+// btn_E.textContent=`${questions[0].answers[4]}`
+// question.textContent=`${questions[0].question}`
+// // let qar=questions[0].question
+// so_sual.addEventListener("click",()=>{
+//     sec.style.borderColor="black"
+//     sual.textContent=`Sual ${d}`
+//     btn_A.disabled=false
+//     btn_B.disabled=false
+//     btn_C.disabled=false
+//     btn_D.disabled=false
+//     btn_E.disabled=false
+//     question.textContent=`${questions[d-1].question}`
+//     btn_A.textContent=`${questions[d-1].answers[0]}`
+//     btn_B.textContent=`${questions[d-1].answers[1]}`
+//     btn_C.textContent=`${questions[d-1].answers[2]}`
+//     btn_D.textContent=`${questions[d-1].answers[3]}`
+//     btn_E.textContent=`${questions[d-1].answers[4]}`
+//     d++
+//     console.log(d)
+// })
+// ev_sual.addEventListener("click",()=>{
+//     sec.style.borderColor="black"
+//     sual.textContent=`Sual ${d-2}`
+//     btn_A.disabled=false
+//     btn_B.disabled=false
+//     btn_C.disabled=false
+//     btn_D.disabled=false
+//     btn_E.disabled=false
+//     question.textContent=`${questions[d-3].question}`
+//     btn_A.textContent=`${questions[d-3].answers[0]}`
+//     btn_B.textContent=`${questions[d-3].answers[1]}`
+//     btn_C.textContent=`${questions[d-3].answers[2]}`
+//     btn_D.textContent=`${questions[d-3].answers[3]}`
+//     btn_E.textContent=`${questions[d-3].answers[4]}`
+//     d--
+//     console.log(d)
+// })
+// btn_A.addEventListener("click",()=>{
+//     // variant = "A"
+//     variant = questions[d-2].answers[0]
+//     btn_A.classList.add("selected")
+//     btn_B.classList.remove("selected")
+//     btn_C.classList.remove("selected")
+//     btn_D.classList.remove("selected")
+//     btn_E.classList.remove("selected")
+//     btn_B.disabled=true
+//     btn_C.disabled=true
+//     btn_D.disabled=true
+//     btn_E.disabled=true
+// })
+// btn_B.addEventListener("click",()=>{
+//     // variant = "B"
+//     btn_B.classList.add("selected")
+//     btn_A.classList.remove("selected")
+//     btn_C.classList.remove("selected")
+//     btn_D.classList.remove("selected")
+//     btn_E.classList.remove("selected")
+//     variant = questions[d-2].answers[1]
+//     btn_A.disabled=true
+//     btn_C.disabled=true
+//     btn_D.disabled=true
+//     btn_E.disabled=true
+// })
+// btn_C.addEventListener("click",()=>{
+//     // variant = "C"
+//     btn_C.classList.add("selected")
+//     btn_B.classList.remove("selected")
+//     btn_A.classList.remove("selected")
+//     btn_D.classList.remove("selected")
+//     btn_E.classList.remove("selected")
+//     variant = questions[d-2].answers[2]
+//     btn_A.disabled=true
+//     btn_B.disabled=true
+//     btn_D.disabled=true
+//     btn_E.disabled=true
+// })
+// btn_D.addEventListener("click",()=>{
+//     btn_D.classList.add("selected")
+//     btn_B.classList.remove("selected")
+//     btn_C.classList.remove("selected")
+//     btn_A.classList.remove("selected")
+//     btn_E.classList.remove("selected")
+//     variant = questions[d-2].answers[3]
+//     btn_A.disabled=true
+//     btn_B.disabled=true
+//     btn_C.disabled=true
+//     btn_E.disabled=true
+// })
+// btn_E.addEventListener("click",()=>{
+//   btn_E.classList.add("selected")
+//   btn_B.classList.remove("selected")
+//   btn_C.classList.remove("selected")
+//   btn_D.classList.remove("selected")
+//   btn_A.classList.remove("selected")
+//   variant = questions[d-2].answers[4]
+//   btn_A.disabled=true
+//   btn_B.disabled=true
+//   btn_C.disabled=true
+//   btn_D.disabled=true
+// })
+// console.log(variant)
+// console.log(questions[d-2].answers[1])
 
 
+// // console.log(questions[d-1].correct)
+// yoxla.addEventListener("click",()=>{
+//     console.log(questions[d-2].correct)
+//     if(variant===questions[d-2].correct){
+//         sec.style.borderColor="Green"
+//         D_Y.textContent="Dogru"
+//         D_Y.style.color="Green"
+//         console.log("isleyir")
+//     }
+//     else if(variant!=questions[d-2].correct){
+//         sec.style.borderColor="red"
+//         D_Y.textContent="Sehv"
+//         D_Y.style.color="red"
+//     }
+// })
 
-let sec = document.getElementById("sec")
-let sual =document.getElementById("sual")
-// for(let j=1;j<=questions.length;j++){
-//     sual.textContent=`Sual ${j}`
+
+// Quiz verisi
+
+// let currentIndex = 0;
+// let selectedAnswer = null;
+
+// // DOM elementl\u0259ri
+// const sec = document.getElementById("sec");
+// const sual = document.getElementById("sual");
+// const questionText = document.getElementById("question");
+// const D_Y = document.getElementById("D_Y");
+// const yoxla = document.getElementById("yoxla");
+// const so_sual = document.getElementById("so_sual");
+// const ev_sual = document.getElementById("ev_sual");
+
+// const answerButtons = [
+//   document.getElementById("btn_A"),
+//   document.getElementById("btn_B"),
+//   document.getElementById("btn_C"),
+//   document.getElementById("btn_D"),
+//   document.getElementById("btn_E")
+// ];
+
+// function loadQuestion(index) {
+//   const q = questions[index];
+//   sual.textContent = `Sual ${index + 1}`;
+//   questionText.textContent = q.question;
+//   answerButtons.forEach((btn, i) => {
+//     btn.textContent = q.answers[i];
+//     btn.disabled = false;
+//     btn.classList.remove("selected");
+//   });
+//   sec.style.borderColor = "black";
+//   D_Y.textContent = "";
+//   selectedAnswer = null;
 // }
-let so_sual=document.getElementById("so_sual")
-let ev_sual=document.getElementById("ev_sual")
-let question = document.getElementById("question")
-let d=2
-let D_Y=document.getElementById("D_Y")
 
-let btn_A=document.getElementById("btn_A")
-let btn_B=document.getElementById("btn_B")
-let btn_C=document.getElementById("btn_C")
-let btn_D=document.getElementById("btn_D")
-let btn_E=document.getElementById("btn_E")
-let yoxla = document.getElementById("yoxla")
-let variant 
-
-sual.textContent=`Sual ${1}`
-btn_A.textContent=`${questions[0].answers[0]}`
-btn_B.textContent=`${questions[0].answers[1]}`
-btn_C.textContent=`${questions[0].answers[2]}`
-btn_D.textContent=`${questions[0].answers[3]}`
-btn_E.textContent=`${questions[0].answers[4]}`
-question.textContent=`${questions[0].question}`
-// let qar=questions[0].question
-so_sual.addEventListener("click",()=>{
-    sec.style.borderColor="black"
-    sual.textContent=`Sual ${d}`
-    btn_A.disabled=false
-    btn_B.disabled=false
-    btn_C.disabled=false
-    btn_D.disabled=false
-    btn_E.disabled=false
-    question.textContent=`${questions[d-1].question}`
-    btn_A.textContent=`${questions[d-1].answers[0]}`
-    btn_B.textContent=`${questions[d-1].answers[1]}`
-    btn_C.textContent=`${questions[d-1].answers[2]}`
-    btn_D.textContent=`${questions[d-1].answers[3]}`
-    btn_E.textContent=`${questions[d-1].answers[4]}`
-    d++
-    console.log(d)
-})
-ev_sual.addEventListener("click",()=>{
-    sec.style.borderColor="black"
-    sual.textContent=`Sual ${d-2}`
-    btn_A.disabled=false
-    btn_B.disabled=false
-    btn_C.disabled=false
-    btn_D.disabled=false
-    btn_E.disabled=false
-    question.textContent=`${questions[d-3].question}`
-    btn_A.textContent=`${questions[d-3].answers[0]}`
-    btn_B.textContent=`${questions[d-3].answers[1]}`
-    btn_C.textContent=`${questions[d-3].answers[2]}`
-    btn_D.textContent=`${questions[d-3].answers[3]}`
-    btn_E.textContent=`${questions[d-3].answers[4]}`
-    d--
-    console.log(d)
-})
-btn_A.addEventListener("click",()=>{
-    // variant = "A"
-    variant = questions[d-2].answers[0]
-    btn_A.classList.add("selected")
-    btn_B.classList.remove("selected")
-    btn_C.classList.remove("selected")
-    btn_D.classList.remove("selected")
-    btn_E.classList.remove("selected")
-    btn_B.disabled=true
-    btn_C.disabled=true
-    btn_D.disabled=true
-    btn_E.disabled=true
-})
-btn_B.addEventListener("click",()=>{
-    // variant = "B"
-    btn_B.classList.add("selected")
-    btn_A.classList.remove("selected")
-    btn_C.classList.remove("selected")
-    btn_D.classList.remove("selected")
-    btn_E.classList.remove("selected")
-    variant = questions[d-2].answers[1]
-    btn_A.disabled=true
-    btn_C.disabled=true
-    btn_D.disabled=true
-    btn_E.disabled=true
-})
-btn_C.addEventListener("click",()=>{
-    // variant = "C"
-    btn_C.classList.add("selected")
-    btn_B.classList.remove("selected")
-    btn_A.classList.remove("selected")
-    btn_D.classList.remove("selected")
-    btn_E.classList.remove("selected")
-    variant = questions[d-2].answers[2]
-    btn_A.disabled=true
-    btn_B.disabled=true
-    btn_D.disabled=true
-    btn_E.disabled=true
-})
-btn_D.addEventListener("click",()=>{
-    btn_D.classList.add("selected")
-    btn_B.classList.remove("selected")
-    btn_C.classList.remove("selected")
-    btn_A.classList.remove("selected")
-    btn_E.classList.remove("selected")
-    variant = questions[d-2].answers[3]
-    btn_A.disabled=true
-    btn_B.disabled=true
-    btn_C.disabled=true
-    btn_E.disabled=true
-})
-btn_E.addEventListener("click",()=>{
-  btn_E.classList.add("selected")
-  btn_B.classList.remove("selected")
-  btn_C.classList.remove("selected")
-  btn_D.classList.remove("selected")
-  btn_A.classList.remove("selected")
-  variant = questions[d-2].answers[4]
-  btn_A.disabled=true
-  btn_B.disabled=true
-  btn_C.disabled=true
-  btn_D.disabled=true
-})
-console.log(variant)
-console.log(questions[d-2].answers[1])
-// btn_A.addEventListener("click",variantsecmek)
-// function variantsecmek(){
-    // console.log("test")
-    // console.log(`${herf}`)
-    // variant=`${herf}`
-    // btn_B.disabled=true
-    // btn_C.disabled=true
-    // btn_D.disabled=true
-    // const herfler=["A","B","C","D"] // bunlari BTN_A kimi elesem "" bunsuz
-    // for(let i=0;i<=herfler.length;i++){
-    //     herfler[i]
-    //     if(herf===herfler[i]){
-
-    //     }
-    // }
+// function handleAnswerClick(btnIndex) {
+//   answerButtons.forEach((btn, i) => {
+//     btn.classList.toggle("selected", i === btnIndex);
+//     btn.disabled = i !== btnIndex;
+//   });
+//   selectedAnswer = questions[currentIndex].answers[btnIndex];
 // }
 
+// answerButtons.forEach((btn, i) => {
+//   btn.addEventListener("click", () => handleAnswerClick(i));
+// });
 
+// yoxla.addEventListener("click", () => {
+//   if (selectedAnswer === questions[currentIndex].correct) {
+//     sec.style.borderColor = "green";
+//     D_Y.textContent = "Do\u011fru";
+//     D_Y.style.color = "green";
+//   } else {
+//     sec.style.borderColor = "red";
+//     D_Y.textContent = "Sehv";
+//     D_Y.style.color = "red";
+//   }
+// });
 
-// console.log(questions[d-1].correct)
-yoxla.addEventListener("click",()=>{
-    console.log(questions[d-2].correct)
-    if(variant===questions[d-2].correct){
-        sec.style.borderColor="Green"
-        D_Y.textContent="Dogru"
-        D_Y.style.color="Green"
-        console.log("isleyir")
-    }
-    else if(variant!=questions[d-2].correct){
-        sec.style.borderColor="red"
-        D_Y.textContent="Sehv"
-        D_Y.style.color="red"
-    }
-})
+// so_sual.addEventListener("click", () => {
+//   if (currentIndex < questions.length - 1) {
+//     currentIndex++;
+//     loadQuestion(currentIndex);
+//   }
+// });
+
+// ev_sual.addEventListener("click", () => {
+//   if (currentIndex > 0) {
+//     currentIndex--;
+//     loadQuestion(currentIndex);
+//   }
+// });
+
+// // ilk sual\u0131 y\u00fckl\u0259
+// loadQuestion(currentIndex);
+// // let currentIndex = 0;
+// // let selectedAnswer = null;
+
+// // Sualı yükləyən funksiya
+// function loadQuestion(index) {
+//   if (index < 0 || index >= questions.length) return;
+
+//   sec.style.borderColor = "black";
+//   D_Y.textContent = "";
+
+//   sual.textContent = `Sual ${index + 1}`;
+//   question.textContent = questions[index].question;
+
+//   const answers = questions[index].answers;
+//   [btn_A, btn_B, btn_C, btn_D, btn_E].forEach((btn, i) => {
+//     btn.textContent = answers[i];
+//     btn.classList.remove("selected");
+//     btn.disabled = false;
+//   });
+
+//   selectedAnswer = null;
+//   currentIndex = index;
+// }
+
+// // Variant düymələri üçün funksiya
+// function selectAnswer(index) {
+//   selectedAnswer = questions[currentIndex].answers[index];
+
+//   const buttons = [btn_A, btn_B, btn_C, btn_D, btn_E];
+//   buttons.forEach((btn, i) => {
+//     btn.classList.toggle("selected", i === index);
+//   });
+// }
+
+// // Variant düymələrinin listenerləri
+// [btn_A, btn_B, btn_C, btn_D, btn_E].forEach((btn, i) => {
+//   btn.addEventListener("click", () => {
+//     selectAnswer(i);
+//   });
+// });
+
+// // Yoxla düyməsi
+// yoxla.addEventListener("click", () => {
+//   if (!selectedAnswer) return;
+
+//   const correct = questions[currentIndex].correct;
+//   if (selectedAnswer === correct) {
+//     sec.style.borderColor = "green";
+//     D_Y.textContent = "Doğru";
+//     D_Y.style.color = "green";
+//   } else {
+//     sec.style.borderColor = "red";
+//     D_Y.textContent = "Səhv";
+//     D_Y.style.color = "red";
+//   }
+
+//   // Seçimdən sonra düymələr aktiv qalsın (istəyinə görə deaktiv edə də bilərik)
+// });
+
+// // Sonraki sual
+// so_sual.addEventListener("click", () => {
+//   if (currentIndex < questions.length - 1) {
+//     loadQuestion(currentIndex + 1);
+//   }
+// });
+
+// // Əvvəlki sual
+// ev_sual.addEventListener("click", () => {
+//   if (currentIndex > 0) {
+//     loadQuestion(currentIndex - 1);
+//   }
+// });
+
+// // Goto düyməsi – istifadəçinin yazdığı suala keç
+// document.getElementById("goto_btn").addEventListener("click", () => {
+//   const value = parseInt(document.getElementById("goto_input").value);
+//   if (!isNaN(value) && value >= 1 && value <= questions.length) {
+//     loadQuestion(value - 1);
+//   }
+// });
+
+// // İlk sual yüklə
+// loadQuestion(0);
+let currentIndex = 0;
+let selectedAnswer = null;
+
+function loadQuestion(index) {
+  if (index < 0 || index >= questions.length) return;
+
+  sec.style.borderColor = "black";
+  D_Y.textContent = "";
+
+  sual.textContent = `Sual ${index + 1}`;
+  question.textContent = questions[index].question;
+
+  const answers = questions[index].answers;
+  [btn_A, btn_B, btn_C, btn_D, btn_E].forEach((btn, i) => {
+    btn.textContent = answers[i];
+    btn.classList.remove("selected");
+    btn.disabled = false;
+  });
+
+  selectedAnswer = null;
+  currentIndex = index;
+}
+
+function selectAnswer(index) {
+  selectedAnswer = questions[currentIndex].answers[index];
+
+  const buttons = [btn_A, btn_B, btn_C, btn_D, btn_E];
+  buttons.forEach((btn, i) => {
+    btn.classList.toggle("selected", i === index);
+  });
+}
+
+[btn_A, btn_B, btn_C, btn_D, btn_E].forEach((btn, i) => {
+  btn.addEventListener("click", () => {
+    selectAnswer(i);
+  });
+});
+
+yoxla.addEventListener("click", () => {
+  if (!selectedAnswer) return;
+
+  const correct = questions[currentIndex].correct;
+
+  if (selectedAnswer === correct) {
+    sec.style.borderColor = "green";
+    D_Y.textContent = "Doğru";
+    D_Y.style.color = "green";
+  } else {
+    sec.style.borderColor = "red";
+    D_Y.textContent = "Səhv";
+    D_Y.style.color = "red";
+  }
+});
+
+// İrəli
+so_sual.addEventListener("click", () => {
+  if (currentIndex < questions.length - 1) {
+    loadQuestion(currentIndex + 1);
+  }
+});
+
+// Geri
+ev_sual.addEventListener("click", () => {
+  if (currentIndex > 0) {
+    loadQuestion(currentIndex - 1);
+  }
+});
+
+// İstənilən suala keç
+document.getElementById("goto_btn").addEventListener("click", () => {
+  const value = parseInt(document.getElementById("goto_input").value);
+  if (!isNaN(value) && value >= 1 && value <= questions.length) {
+    loadQuestion(value - 1);
+  }
+});
+
+// İlk sualı yüklə
+loadQuestion(0);
+   
