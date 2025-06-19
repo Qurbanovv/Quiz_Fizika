@@ -2043,7 +2043,7 @@ const questions = [
         "D) azad tərbiyə ideyası, ana dili haqqında, qadın təhsili",
         "E) ümumi icbari təhsilin həyata keçirilməsi, dini təhsil dərsliklər haqqında"
       ],
-      correct: "D) azad tərbiyə ideyası, ana dili haqqında, qadın təhsili"
+      correct: "C) azad tərbiyə ideyası haqqında, yasnaya polyana jurnalı, dərsliklər haqqında"
     },
     {
       question: "K.D.Uşinskinin əsərlərində irəli sürülən pedaqoji ideyalar:",
