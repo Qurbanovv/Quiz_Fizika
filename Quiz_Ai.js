@@ -1228,3 +1228,40 @@ document.getElementById("goto_btn").addEventListener("click", () => {
 // İlk sualı yüklə
 loadQuestion(0);
    
+
+
+
+const originalQuestions = JSON.parse(JSON.stringify(questions));
+let answersGiven = new Array(questions.length).fill(null);
+
+
+function partialShuffle(array, count) {
+  const part = array.slice(0, count);
+  for (let i = part.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [part[i], part[j]] = [part[j], part[i]];
+  }
+  for (let i = 0; i < count; i++) {
+    array[i] = part[i];
+  }
+}
+document.getElementById("shuffle_partial").addEventListener("click", () => {
+  const countInput = document.getElementById("mix_count").value;
+  const count = parseInt(countInput);
+
+  if (isNaN(count) || count < 1 || count > questions.length) {
+    alert(`1 ilə ${questions.length} arasında bir ədəd daxil edin.`);
+    return;
+  }
+
+  partialShuffle(questions, count);
+  answersGiven = new Array(questions.length).fill(null);
+  loadQuestion(0); // sənə uyğun funksiya varsa
+});
+
+
+document.getElementById("reset_btn").addEventListener("click", () => {
+  questions.splice(0, questions.length, ...JSON.parse(JSON.stringify(originalQuestions)));
+  answersGiven = new Array(questions.length).fill(null);
+  loadQuestion(0); // yenə sənə uyğun sual göstərmə funksiyası
+});

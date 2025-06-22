@@ -68,7 +68,7 @@ h2 {
     justify-content: center;
 }
 
-.btn_div button {
+.btn_div button ,.Qarisdir_sifirla button{
     padding: 10px 20px;
     font-size: 15px;
     border: none;
@@ -111,5 +111,16 @@ h2 {
     padding: 5px 10px;
     font-size: 16px;
     cursor: pointer;
+  }
+  #shuffle_partial, #reset_btn {
+    margin-top: 10px;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  #mix_count {
+    padding: 5px;
+    width: 250px;
+    font-size: 14px;
   }
   
