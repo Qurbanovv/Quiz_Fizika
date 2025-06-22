@@ -123,4 +123,52 @@ h2 {
     width: 250px;
     font-size: 14px;
   }
+  .Qarisdir_sifirla {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Qarisdir_sifirla input {
+    padding: 8px;
+    font-size: 14px;
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .Qarisdir_sifirla button {
+    padding: 8px 14px;
+    font-size: 14px;
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .Qarisdir_sifirla button:hover {
+    background-color: #e0a800;
+  }
+  
+  @media (max-width: 600px) {
+    .Qarisdir_sifirla {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .Qarisdir_sifirla input {
+      width: 90%;
+      max-width: 300px;
+    }
+  
+    .Qarisdir_sifirla button {
+      width: 90%;
+      max-width: 300px;
+    }
+  }
   

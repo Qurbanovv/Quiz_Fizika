@@ -30,11 +30,19 @@
         <!-- İmtahan nəticəsi üçün göstərici -->
         <button id="show_result" style="margin-top:11px">Nəticəni Göstər</button>
         <div id="result_area" style="margin-top: 10px; font-weight: bold;"></div>
-        <div style="margin-top: 20px;" class="Qarisdir_sifirla">
+        <!-- <div style="margin-top: 20px;" class="Qarisdir_sifirla">
             <input id="mix_count" type="number" placeholder="Neçə sualı qarışdırmaq istəyirsən?" min="1">
             <button id="shuffle_partial">Sualları Qarışdır</button>
             <button  id="reset_btn">Sıfırla (Əvvəlki düzülüş)</button>
-          </div>
+          </div> -->
+          <div>
+            <label style="margin-top: 20px;" class="Qarisdir_sifirla">Qarışdır: </label>
+            <input id="mix_start" type="number" placeholder="Məs: 20" min="1">
+            <input id="mix_end" type="number" placeholder="Məs: 50" min="1">
+            <!-- <button id="shuffle_partial">Sualları Qarışdır</button> -->
+            <button id="shuffle_range">Seçiləni qarışdır</button>
+            <button  id="reset_btn">Sıfırla (Əvvəlki düzülüş)</button>
+        </div>
           
     </div>  
 
@@ -49,7 +57,7 @@
             <input type="radio" name="varii" id="rad_5">
             <p id="p_5"></p> -->
 
-    <script src="Quiz_Ai_2.js"></script>
+    <script src="Quiz_AI_3.js"></script>
 
 </body>
 </html>
