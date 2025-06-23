@@ -1109,9 +1109,1121 @@ const questions = [
         "e) İnam, ümid, məhəbbət"
       ],
       correct: "e) İnam, ümid, məhəbbət"
+    },
+    {
+      question: "102.0. Qədim romalılar vicdanı necə dəyərləndiridilər?",
+      answers: [
+        "a) Fəzilətin ən gərəklisi hesab edirdilər",
+        "b) On şahidə bərabər tuturdular",
+        "c) Əqlin zəkası hesab edirdilər",
+        "d) Mükəmməllik cizgisi sayırdılar",
+        "e) İnsanlıq vergisi sayırdılar"
+      ],
+      correct: "b) On şahidə bərabər tuturdular"
+    },
+    {
+      question: "103.0. Freydin xidmətləri hansı sahədə böyükdür?",
+      answers: [
+        "a) Baxışların mənasının tədqiqi",
+        "b) Həzzin rolunun öyrənilməsi",
+        "c) Gülüşün əhəmiyyətinin tədqiqi",
+        "d) Mənəvi dəyərlərin tədqiq olunması sahəsində",
+        "e) Görkəmin insan taleyində rolunun öyrənilməsi"
+      ],
+      correct: "b) Həzzin rolunun öyrənilməsi"
+    },
+    {
+      question: "104.0. Etikanın bir elm kimi müəyyən dəyişikliyə uğramasına səbəb olan amil.",
+      answers: [
+        "a) Cəmiyyətin mahiyyət və məzmununun dəyişikliyə uğraması",
+        "b) İnsan biliyinin və texnoloji imkanlarının inkişafı",
+        "c) İnsan münasibətlərinin dəyişməsi",
+        "d) Yer kürəsində kataklizmanın yaranması",
+        "e) Dünyanın qloballaşması"
+      ],
+      correct: "b) İnsan biliyinin və texnoloji imkanlarının inkişafı"
+    },
+    {
+      question: "105.0. İ. Kant ilk dəfə görmüşdür?",
+      answers: [
+        "a) Elmlə təhsil arasındakı fərqi",
+        "b) Nəzəriyyə ilə praktika arasındakı fərqi",
+        "c) Hislə emosiya arasındakı fərqi",
+        "d) Zəka ilə təfəkkür arasındakı fərqi",
+        "e) Niyyətlə əməl arasındakı fərqi"
+      ],
+      correct: "b) Nəzəriyyə ilə praktika arasındakı fərqi"
+    },
+    {
+      question: "106.0. İ.Kant “təcrübi zəka”nı aşağıdakılardan hansıların sinonimi kimi işlətmişdir?",
+      answers: [
+        "a) Əxlaqi idrak və davranışın",
+        "b) Hiss və emosiyanın",
+        "c) Niyyət və davranışın",
+        "d) Zəka və təfəkkürün",
+        "e) Xeyirxahlıq və humanizmin"
+      ],
+      correct: "a) Əxlaqi idrak və davranışın"
+    },
+    {
+      question: "107.0. Tətbiqi etikanın müəyyən təsnifatlar çərçivəsində tərtib olunduğu kitabın müəllifi:",
+      answers: [
+        "a) Fridin",
+        "b) P.Brok",
+        "c) L.V. Knavolova",
+        "d) Saltzmn",
+        "e) Polman"
+      ],
+      correct: "c) L.V. Knavolova"
+    },
+    {
+      question: "108.0. Peşə etikasının yaranmasının səbəbləri?",
+      answers: [
+        "a) Əməyin mahiyyət və məzmununun dəyişməsi ilə əlaqədar",
+        "b) Cəmiyyətin mənəvi dəyərlərinin yüksəlməsi ilə əlaqədar",
+        "c) Peşələrin, spesifik peşə əxlaqının meydana gəlməsi ilə əlaqədar",
+        "d) Cəmiyyətdə əxlaq münasibətlərinin təkmilləşməsi ilə əlaqədar",
+        "e) Elmi texniki tərəqqi ilə əlaqədar"
+      ],
+      correct: "c) Peşələrin, spesifik peşə əxlaqının meydana gəlməsi ilə əlaqədar"
+    },
+    {
+      question: "109.0. Tarixən formalaşmış peşə etikası normaları nə qədər yaşayacaq?",
+      answers: [
+        "a) Mənəvi dəyərlər tam kamilləşənə qədər",
+        "b) İnsan münasibətləri ən yüksək zirvəsinə çatana kimi",
+        "c) Cəmiyyətin tərəqqisi başa çatana qədər",
+        "d) Peşələrin xarakteri tam mükəmməlləşənə qədər",
+        "e) Peşələr mövcud olduqca"
+      ],
+      correct: "e) Peşələr mövcud olduqca"
+    },
+    {
+      question: "110.0. Tibbi etika anlayışı nə zaman formalaşıb?",
+      answers: [
+        "a) E.ə. II-I əsrlər",
+        "b) E.ə. IV-III əsrlər",
+        "c) E.ə. VII-VI əsrlər",
+        "d) E.ə. V-IV əsrlər",
+        "e) E.ə. VI-V əsrlər"
+      ],
+      correct: "e) E.ə. VI-V əsrlər"
+    },
+    {
+      question: "111.0. Həkimlik etikası anlayışına daxildir?",
+      answers: [
+        "a) Həkim əxlaqı, həkimin şəxsi mən'i",
+        "b) Həkimin borcu haqqında təlim, həkimlik sosiologiyası",
+        "c) Həkim fenomeni, həkim şəxsiyyətin spesifikası",
+        "d) Həkimin iş prinsipi, peşəkarlıq təlimi",
+        "e) Həkimin xəstəyə humanist yanaşma tərzi"
+      ],
+      correct: "b) Həkimin borcu haqqında təlim, həkimlik sosiologiyası"
+    },
+    {
+      question: "112.0. Əxlaq haqqında elm olan etikanı nə yaradır?",
+      answers: [
+        "a) Sadə əxlaq normalarının dərk olunması",
+        "b) Əxlaqın nəzəri cəhətdən dərk olunması və əsaslandırılması",
+        "c) Dövlətin, qanunların formalaşması",
+        "d) İqtisadi yüksəlişin təmin olunması",
+        "e) İnsanlıq dəyərlərinin formalaşması"
+      ],
+      correct: "b) Əxlaqın nəzəri cəhətdən dərk olunması və əsaslandırılması"
+    },
+    {
+      question: "113.0. Tarixən dəyişikliyə məruz qalmışdır?",
+      answers: [
+        "a) Siyasi və əxlaqi şüurun qarşılıqlı münasibətinin xarakteri",
+        "b) Sadə əxlaq normaları",
+        "c) İbtidai dövrün adətləri",
+        "d) Ailə münasibətləri",
+        "e) İctimai şüurun formaları"
+      ],
+      correct: "a) Siyasi və əxlaqi şüurun qarşılıqlı münasibətinin xarakteri"
+    },
+    {
+      question: "114.0. Etikanı qanunculuqla bağlamağa çalışan filosoflar?",
+      answers: [
+        "a) Hegel, Pifoqor, Solon",
+        "b) Demokrit, Kor, Helvetsi",
+        "c) Feyerbax, Biruni, Mərban",
+        "d) Sokrat, Platon, Aristotel",
+        "e) Pifoqor, Kant, Hobbs"
+      ],
+      correct: "d) Sokrat, Platon, Aristotel"
+    },
+    {
+      question: "115.0. Həm incəsənət, həm də əxlaqın əsasını təşkil edir...?",
+      answers: [
+        "a) Dinlə incəsənətin vəhdəti",
+        "b) Etiklik və estetikliyin vəhdəti",
+        "c) Elmlə incəsənətin vəhdəti",
+        "d) Fəlsəfə ilə dinin vəhdəti",
+        "e) Hüquqla siyasətin vəhdəti"
+      ],
+      correct: "b) Etiklik və estetikliyin vəhdəti"
+    },
+    {
+      question: "116.0. Əxlaqi davranış nədir?",
+      answers: [
+        "a) İnsanın başqalarına nümunə ola biləcək hərəkətidir.",
+        "b) İnsanın əxlaqi dəyərləri ilə müşayiət olunan hərəkət tərzidir.",
+        "c) İnsanın daxili zənginliyinin ifadəsidir.",
+        "d) İnsanın mənəvi dəyərlərinin hərəkətlərlə ifadə tərzidir.",
+        "e) İnsanın şüur və ifadəsi ilə bağlı olan əxlaqi əməllərin məcmusudur."
+      ],
+      correct: "e) İnsanın şüur və ifadəsi ilə bağlı olan əxlaqi əməllərin məcmusudur."
+    },
+    {
+      question: "117.0. Motivin seçilməsi, dərk edilməsi, başqaları və özü qarşısında əsaslandırılmasına nə deyilir?",
+      answers: [
+        "a) Məntiq",
+        "b) Münasibət",
+        "c) Motivasiya",
+        "d) Yaşantı",
+        "e) İstiqamət"
+      ],
+      correct: "c) Motivasiya"
+    },
+    {
+      question: "118.0. Paternalist davranış hansı fikrə əsaslanır?",
+      answers: [
+        "a) Kliyentin arzu-istəyi hadisələri ləngidir.",
+        "b) Sosial işçi prosesin gedişini özü nizamlayır.",
+        "c) Təcrübəçi kliyentin seçim hüququna müdaxilə edə bilər.",
+        "d) İşin gedişi proqnoz söyləməyə imkan verir.",
+        "e) Kliyent müstəqil qərar qəbul edə bilər."
+      ],
+      correct: "c) Təcrübəçi kliyentin seçim hüququna müdaxilə edə bilər."
+    },
+    {
+      question: "119.0. Paternalizmə bəraət qazandıran 4 şərti qəbul edən alim?",
+      answers: [
+        "a) Ştetnzak",
+        "b) Halsted",
+        "c) Volker",
+        "d) Abramson",
+        "e) Brok"
+      ],
+      correct: "d) Abramson"
+    },
+    {
+      question: "120.0. Etik kateqoriyalar nəyi ifadə edir?",
+      answers: [
+        "a) Əxlaqın bütün tərəflərini",
+        "b) Cəmiyyət qanunlarını",
+        "c) Milli-mənəvi dəyərləri",
+        "d) Yaşam tərzinin məzmununu",
+        "e) Elmi idrakın müxtəlif pillələrini"
+      ],
+      correct: "e) Elmi idrakın müxtəlif pillələrini"
+    },
+    {
+      question: "121.0. Kant və Hegel etika ilə bağlı nə düşünürdülər?",
+      answers: [
+        "a) Onlar etikanı insanlığı dəyişdirəcək amil hesab edirdilər.",
+        "b) Onlar etikanı həyatdan ayırmağa çalışırdılar.",
+        "c) Onlar etikanın inkişafını zəruri hesab edirdilər.",
+        "d) Onlar etikanın elmi səciyyəsini yüksəltməyə cəhd edirdilər.",
+        "e) Onlar etikanın gələcək inkişafını cəmiyyətin maariflənməsində axtarırdılar."
+      ],
+      correct: "b) Onlar etikanı həyatdan ayırmağa çalışırdılar."
+    },
+    {
+      question: "122.0. Zərdüşt inamına görə bütün şəxsiyyət idealı neçə amilin vəhdətindən yaranıb?",
+      answers: [
+        "a) 2",
+        "b) 4",
+        "c) 5",
+        "d) 1",
+        "e) 3"
+      ],
+      correct: "e) 3"
+    },
+    {
+      question: "123.0. Tusinin “Əxlaqi Nasir” əsəri neçə məqalə, neçə fəsildən ibarətdir?",
+      answers: [
+        "a) 10 məqalə, 25 fəsil",
+        "b) 3 məqalə, 30 fəsil",
+        "c) 5 məqalə, 20 fəsil",
+        "d) 5 məqalə, 16 fəsil",
+        "e) 8 məqalə, 30 fəsil"
+      ],
+      correct: "b) 3 məqalə, 30 fəsil"
+    },
+    {
+      question: "124.0. “Əxlaqi Nasir” əsərinin adı ilə bağlı Tusinin qeydləri ...?",
+      answers: [
+        "a) “İsmayıl hökmdarı Nasirin xalqı çox sevdiyi üçün mən əsərimi “Əxlaqi Nasir” adlandırdım.",
+        "b) “Bu kitabın yazılması hökmdar Nasirin əmri və təşviqi ilə olduğu üçün onu “Əxlaqi Nasir” adlandırdım.",
+        "c) “Kitab İsmayıl hökmdarı Nasirin mənə ənam göndərməsi səbəbilə belə adlandırılır”.",
+        "d) “İsmayıl hökmdarı Nasirin əmri ilə belə adlandırıldı”.",
+        "e) İsmayıl hökmdarı Nasirin hərbi qələbələrinin şərəfinə kitab “Əxlaqi Nasir”i adlandırıldı."
+      ],
+      correct: "b) “Bu kitabın yazılması hökmdar Nasirin əmri və təşviqi ilə olduğu üçün onu “Əxlaqi Nasir” adlandırdım."
+    },
+    {
+      question: "125.0. Tusinin əxlaqi sifətlərlə bağlı fikirləri...?",
+      answers: [
+        "a) Əxlaq insanın bəzəyidir.",
+        "b) Əxlaqi sifətlər yalnız ictimai həyatda yaranır, heç də anadangəlmə proses deyil.",
+        "c) Əxlaq insanı heyvandan fərqləndirən başlıca keyfiyyətdir.",
+        "d) Əxlaqsız insan cəmiyyət üçün qara yaradır.",
+        "e) Əxlaq insani duyğudur."
+      ],
+      correct: "b) Əxlaqi sifətlər yalnız ictimai həyatda yaranır, heç də anadangəlmə proses deyil."
+    },
+    {
+      question: "126.0. Füzulinin etik, estetik görüşlərinin tədqiqatçısı F.Qasımzadənin əsəri necə adlanır?",
+      answers: [
+        "a) “Sevgi nuru”",
+        "b) “Dünyanın gözü”",
+        "c) “Qəm karvanı”",
+        "d) “Şərqin işığı”",
+        "e) “Fəzilətlər sahibi”"
+      ],
+      correct: "c) “Qəm karvanı”"
+    },
+    {
+      question: "127.0. Füzuli əxlaqi əməllərin təyinində əqlə verdiyi yüksək rola yekun vuraraq, yazır...?",
+      answers: [
+        "a) “Elmlə ilə, ədəblə tapılar şərəf”.",
+        "b) “Ədəbsiz insan yalnız qaranlığa gedir”.",
+        "c) “Əxlaq çətin sınaqları asanlaşdırır”.",
+        "d) “Əvvəl fikir, sonra əməl”.",
+        "e) “Yaxşı de, yaxşı eşit”."
+      ],
+      correct: "d) “Əvvəl fikir, sonra əməl”."
+    },
+    {
+      question: "128.0. Zeynalabdin Şirvani insanın kamil olması, təkmilləşməsi üçün neçə keyfiyyət qazanmasını zəruri hesab edirdi?",
+      answers: [
+        "a) 20",
+        "b) 25",
+        "c) 40",
+        "d) 50",
+        "e) 30"
+      ],
+      correct: "d) 50"
+    },
+    {
+      question: "129.0. İnsanın kamilləşməsi, təkmilləşməsi üçün 50 keyfiyyəti zəruri hesab edən Azərbaycan mütəfəkkiri?",
+      answers: [
+        "a) Əfzələddin Xaqani",
+        "b) Abbasqulu Ağa Bakıxanov",
+        "c) Mirzə Fətəli Axundzadə",
+        "d) Zeynalabdin Şirvani",
+        "e) Nizami Gəncəvi"
+      ],
+      correct: "d) Zeynalabdin Şirvani"
+    },
+    {
+      question: "130.0. Məhəmməd Peyğəmbər hansı keyfiyyətləri insanda ən naqis cəhət hesab edirdi?",
+      answers: [
+        "a) Qeyri – təvazökarlıq, lovğalıq",
+        "b) Yalançılıq, qeyri - təvazökarlıq",
+        "c) Həsəd, paxıllıq, özündən müştəbehlik",
+        "d) Kinlilik, acı dil, paxıllıq",
+        "e) Xəsislik, hiylə, kinlilik, həsəd"
+      ],
+      correct: "e) Xəsislik, hiylə, kinlilik, həsəd"
+    },
+    {
+      question: "131.0. Mənəvi borc nədir?",
+      answers: [
+        "a) İnsanların bir-birinə vicdan borcu",
+        "b) Gözəl hisslərin paylaşdırılması",
+        "c) Başqaları üçün yaşaya bilmək",
+        "d) Başqalarını ağır situasiyalardan çıxarmağı bacarmaq",
+        "e) İnsanların birgə yaşayış prosesində yaranan öhdəçiliyi"
+      ],
+      correct: "e) İnsanların birgə yaşayış prosesində yaranan öhdəçiliyi"
+    },
+    {
+      question: "132.0. Kantın etikasını necə adlandırmaq olar?",
+      answers: [
+        "a) Xeyir etikası",
+        "b) Şərəf etikası",
+        "c) Ləyaqət etikası",
+        "d) Borc etikası",
+        "e) Vicdan etikası"
+      ],
+      correct: "d) Borc etikası"
+    },
+    {
+      question: "133.0. Demokrit utancaqlıqdan danışarkən hansı etik kateqoriyanı nəzərdə tuturdu?",
+      answers: [
+        "a) Ləyaqət",
+        "b) Vicdan",
+        "c) Şərəf",
+        "d) Borc",
+        "e) Xoşbəxtlik"
+      ],
+      correct: "b) Vicdan"
+    },
+    {
+      question: "134.0. Bütün ümidlərini vicdana bağlayan filosof?",
+      answers: [
+        "a) Anaksimen",
+        "b) Paskal",
+        "c) Epikür",
+        "d) Demokrit",
+        "e) Siseron"
+      ],
+      correct: "e) Siseron"
+    },
+    {
+      question: "135.0. “Vicdan ən yumuşaq yastıqdır” fikrinin müəllifi?",
+      answers: [
+        "a) Heminquey",
+        "b) Yedesi",
+        "c) Tatarkeviç",
+        "d) Yertsen",
+        "e) H.İbsen"
+      ],
+      correct: "e) H.İbsen"
+    },
+    {
+      question: "136.0. İntibah dövründə Mirondola, Valla, Erazm tərəfindən nəzəri cəhətdən daha çox əsaslandırılan kateqoriyalar?",
+      answers: [
+        "a) Xoşbəxtlik, utancaqlıq",
+        "b) Xeyir, şər",
+        "c) Borc, vicdan",
+        "d) Şərəf və ləyaqət",
+        "e) Xoşbəxtlik, həyatın mənası"
+      ],
+      correct: "d) Şərəf və ləyaqət"
+    },
+    {
+      question: "137.0. Şərəfin inkişafının ikinci dövrünü A.İ.Gertsen hansı dövr adlandırır?",
+      answers: [
+        "a) Tərəqqi dövrü",
+        "b) Renesans dövrü",
+        "c) İntibah dövrü",
+        "d) Yunan – Roma",
+        "e) Tənəzzül dövrü"
+      ],
+      correct: "d) Yunan – Roma"
+    },
+    {
+      question: "138.0. L.S.Lixaçova etiketin neçə prinsipini ayırır?",
+      answers: [
+        "a) yeddi",
+        "b) dörd",
+        "c) altı",
+        "d) üç",
+        "e) beş"
+      ],
+      correct: "b) dörd"
+    },
+    {
+      question: "139.0. Etika fəlsəfənin hansı sahəsidir?",
+      answers: [
+        "a) Etika cəmiyyətin mənəvi sahəsini öyrənir.",
+        "b) İnsan həyatının praktik məsələləri ilə bağlı olan sahəsidir.",
+        "c) İdrak qanunlarını öyrənən sahədir.",
+        "d) Etika fəlsəfədə idrak, təfəkkür qanunlarını öyrənir.",
+        "e) Etika fəlsəfənin varlıq materiya məsələlərini öyrənir."
+      ],
+      correct: "b) İnsan həyatının praktik məsələləri ilə bağlı olan sahəsidir."
+    },
+    {
+      question: "140.0. Dəqiqlik aşağıdakılardan hansında təzahür edir?",
+      answers: [
+        "a) həyatın hər anında",
+        "b) verilmiş sözə sadiq olmaqda",
+        "c) ağır psixo-emosional vəziyyətdə",
+        "d) insanı pis vəziyyətdə qoyan sualları verməmək qabiliyyətində",
+        "e) özünü qiymətləndirmədə"
+      ],
+      correct: "b) verilmiş sözə sadiq olmaqda"
+    },
+    {
+      question: "141.0. Quldarlıq dövrünə xas olan əxlaq hansı vətəndaşlar arasındakı münasibətə aid idi?",
+      answers: [
+        "a) Zadəganlarla kəndlilər",
+        "b) Azad vətəndaşlar",
+        "c) Ər-arvad",
+        "d) Hakim zümrə ilə qullar",
+        "e) Ata və oğul"
+      ],
+      correct: "b) Azad vətəndaşlar"
+    },
+    {
+      question: "142.0. Etik nəzəriyyələr tam ifadəsini hansı ölkələrdə tapmışdır?",
+      answers: [
+        "a) Qədim Çin, qədim Babilistan",
+        "b) Qədim Yunanıstan, qədim Roma",
+        "c) Qədim Hindistan, qədim Misir",
+        "d) Qədim Misir, qədim Çin",
+        "e) Qədim Misir, qədim Babilistan"
+      ],
+      correct: "b) Qədim Yunanıstan, qədim Roma"
+    },
+    {
+      question: "143.0. Hansı tarixdə Buddizm yaranıb?",
+      answers: [
+        "a) II – I əsrlərdə",
+        "b) III – II əsrlərdə",
+        "c) VII – VI əsrlərdə",
+        "d) IV – III əsrlərdə",
+        "e) VI – V əsrlərdə"
+      ],
+      correct: "e) VI – V əsrlərdə"
+    },
+    {
+      question: "144.0. Aşağıdakı fəlsəfi məktəblərdən hansı Konfutsinin etik-siyasi konsepsiyası ilə rəqabət aparırdı?",
+      answers: [
+        "a) Daosizm",
+        "b) Leqizm",
+        "c) Çayinzm",
+        "d) Moizm",
+        "e) Buddizm"
+      ],
+      correct: "d) Moizm"
+    },
+    {
+      question: "145.0. Aşağıdakılardan hansı Çaynist etikasında mühüm yer tutur?",
+      answers: [
+        "a) İnsanın genetik quruluşu",
+        "b) İnsanın ruhu",
+        "c) İnsanın nəsil şəcərəsi",
+        "d) İnsanın əzələlərinin gücü",
+        "e) İnsanın fiziki görkəmi"
+      ],
+      correct: "b) İnsanın ruhu"
+    },
+    {
+      question: "146.0. 8 fəzilətə çatmağı insan üçün vacib hesab edən cərəyan?",
+      answers: [
+        "a) Dualizm",
+        "b) Caynizm",
+        "c) Şamanizm",
+        "d) Marksizm",
+        "e) Buddizm"
+      ],
+      correct: "e) Buddizm"
+    },
+    {
+      question: "147.0. “Şər konkretdir, onun daşıyıcı isə varlılardır” fikirləri kimə məxsusdur?",
+      answers: [
+        "a) Buddizm cərəyanının tərəfdarlarına",
+        "b) Yoqa cərəyanının tərəfdarlarına",
+        "c) Caynizm cərəyanının tərəfdarlarına",
+        "d) Moizm cərəyanının tərəfdarlarına",
+        "e) Dasizm cərəyanının tərəfdarlarına"
+      ],
+      correct: "d) Moizm cərəyanının tərəfdarlarına"
+    },
+    {
+      question: "148.0. Materializmə yaxın olan ilk optimist konsepsiyanın müəllifi kimdir?",
+      answers: [
+        "a) Tenon",
+        "b) Protoqar",
+        "c) Fales",
+        "d) Epikür",
+        "e) Anaksimen"
+      ],
+      correct: "d) Epikür"
+    },
+    {
+      question: "149.0. Latın sözü olan «Kateqoriya» Azərbaycan dilində mənası nədir?",
+      answers: [
+        "a) Özünəməxsus «dili», «mühakimə», «tərif»",
+        "b) «Mühakimə», «məntiq»",
+        "c) «Məntiq», «tərif»",
+        "d) «Mühakimə», «təfəkkür»",
+        "e) «Qavrayış», «tərif»"
+      ],
+      correct: "b) «Mühakimə», «məntiq»"
+    },
+    {
+      question: "150.0. Hər hansı bir təlimin (estetik, siyasi, dini və s.) öz əsas ideyalarını ifadə etməsi üçün nədən istifadə edir?",
+      answers: [
+        "a) Anlayışlardan, özünəməxsus «dili»-indən",
+        "b) Anlayışlar aparatı məntiqdən, özünəməxsus «dili»-indən",
+        "c) Özünəməxsus «dili»-indən və təfəkkür əməliyyatlardan",
+        "d) Məntiqdən, özünəməxsus «dili»-indən",
+        "e) Anlayışlar aparatı, özünəməxsus «dili»-indən"
+      ],
+      correct: "e) Anlayışlar aparatı, özünəməxsus «dili»-indən"
+    },
+    {
+      question: "151.0. “Fəzilətlər elm və təhsillə əldə edildiyi üçün əxlaqın mahiyyəti intellektual inkişafdır” cümləsinin müəllifi kimdir?",
+      answers: [
+        "a) Diogen",
+        "b) M.F.Axundzadə",
+        "c) S.Ə.Şirvani",
+        "d) Sokrat",
+        "e) İbn Sina"
+      ],
+      correct: "d) Sokrat"
+    },
+    {
+      question: "152.0. Stoiklərin fikrincə insan müdrik, əxlaqlı olmaq üçün nə etməlidir?",
+      answers: [
+        "a) Elmini artırmalıdır.",
+        "b) Qəlbinin səsinə qulaq asmalıdır.",
+        "c) Vicdanının səsinə qulaq asmalıdır.",
+        "d) Haqsızlığa göz yummamalıdır.",
+        "e) Daim özünü tərbiyə etməlidir."
+      ],
+      correct: "e) Daim özünü tərbiyə etməlidir."
+    },
+    {
+      question: "153.0. Aşağıdakılardan hansı Lukretski Karın məşhur poemasıdır?",
+      answers: [
+        "a) “Pritorika”",
+        "b) ”Ali nemət və şər haqqında”",
+        "c) “Özümə qarşı düşüncələr”",
+        "d) “Politika”",
+        "e) “Şeylərin təbiəti haqqında”"
+      ],
+      correct: "e) “Şeylərin təbiəti haqqında”"
+    },
+    {
+      question: "154.0. Roma stoisizminin son nümayəndəsi?",
+      answers: [
+        "a) Seneka",
+        "b) Y.Kar",
+        "c) Spinoza",
+        "d) Siseron",
+        "e) Mark Avreli"
+      ],
+      correct: "e) Mark Avreli"
+    },
+    {
+      question: "155.0. Etiket nə deməkdir?",
+      answers: [
+        "a) Modern həyat tərzi deməkdir",
+        "b) Insanlara münasibətlərin xarici təzahürlərinə aid olan davranış qaydalarının məcmusudur",
+        "c) Son modalı cavan mənasında işlənir",
+        "d) Insanların xarici görünüşünün mənasini ifadə edir",
+        "e) Geyimə verilən tələb deməkdir"
+      ],
+      correct: "b) Insanlara münasibətlərin xarici təzahürlərinə aid olan davranış qaydalarının məcmusudur"
+    },
+    {
+      question: "156.0. Etiket termini müasir mənasında ilk dəfə harada işlənmişdir?",
+      answers: [
+        "a) Ingilis kral sarayında",
+        "b) Qədim misirdə",
+        "c) XIV Yüdovikin qəbul mərasimlərindən birində",
+        "d) Şərq saraylarında",
+        "e) I Pyotrun təşkil etdiyi gecə ballarında"
+      ],
+      correct: "c) XIV Yüdovikin qəbul mərasimlərindən birində"
+    },
+    {
+      question: "157.0. Insana məxsus olan hansi xüsusiyyət özünün mənəvi təməli sayəsində sosial cəhətdən zəruri və dəyərli keyfiyyət kimi cıxış edir?",
+      answers: [
+        "a) Ekaloji mədəniyyət",
+        "b) Davranış mədəniyyəti",
+        "c) Siyasi düşünmə tərzi",
+        "d) Məişət mədəniyyəti",
+        "e) Geyim mədəniyyəti"
+      ],
+      correct: "b) Davranış mədəniyyəti"
+    },
+    {
+      question: "158.0. Etiketə riayət olunması əmək kollektivində nəyə nail olunmasına imkan verir?",
+      answers: [
+        "a) Sağlam psixoloji mühitin formalaşmasına",
+        "b) Işgüzar mühitin yaradılmasına",
+        "c) əmək məhsuldarlığının artmasına",
+        "d) əmək intizamının yüksəlməsinə",
+        "e) Yaradıcı mühitin yaradılması"
+      ],
+      correct: "e) Yaradıcı mühitin yaradılması"
+    },
+    {
+      question: "159.0. Dahi İbn Sina hansı əsərində müalicə üsulları ilə yanaşı xəstənin şəxsiyyətinə münasibət həkimin əxlaqi simasında verilən tələblər məsələlərində şərh edilmişdir?",
+      answers: [
+        "a) “Xoş rəftar haqqında”",
+        "b) “Nəsihətlər”",
+        "c) “Həkim haqqında”",
+        "d) “And”",
+        "e) “Həkimlik elminin qanunları”"
+      ],
+      correct: "e) “Həkimlik elminin qanunları”"
+    },
+    {
+      question: "160.0. “Ptaxattepin vəziri və şəhər rəisinin nəsihətləri” əsərinə harada rast gəlinir?",
+      answers: [
+        "a) Qədim Cin mənbələrində",
+        "b) Qədim hind mənbələrində",
+        "c) “Veda” adlı dini ədəbiyyatda",
+        "d) Qədim misir yazilarında",
+        "e) Qədim Şumer yazılarında"
+      ],
+      correct: "d) Qədim misir yazilarında"
+    },
+    {
+      question: "161.0. Estetika haqqında ən erkən konseptual anlayışlar kim tərəfindən tərtib edilmişdir?",
+      answers: [
+        "a) Platon",
+        "b) Materialistlər",
+        "c) Pifaqorçular",
+        "d) Heraklit",
+        "e) Aristotel"
+      ],
+      correct: "c) Pifaqorçular"
+    },
+    {
+      question: "162.0. “Sofist”, “Parmenid”, “Teetet”, “Dövlət” əsərləri aiddir:",
+      answers: [
+        "a) Aristotel",
+        "b) Heroklit",
+        "c) Platon",
+        "d) Fales",
+        "e) Sokrat"
+      ],
+      correct: "c) Platon"
+    },
+    {
+      question: "163.0. Bu alimin ictimai-siyasi və fəlsəfi görüşləri özünün “ən mükəmməl sistem” saydığı quldarlığın möhkəmlənməsinə yönəlmişdi:",
+      answers: [
+        "a) Sokrat",
+        "b) Platon",
+        "c) Aristotel",
+        "d) Fales",
+        "e) Heroklit"
+      ],
+      correct: "c) Aristotel"
+    },
+    {
+      question: "164.0. Canlı həyata, insan ehtiraslarına, sevgi və faciələrə maraq formasının ortaya çıxdığı dövr:",
+      answers: [
+        "a) Sosialist realizm dövrü",
+        "b) İntibah dövrü",
+        "c) Maarifçilik dövrü",
+        "d) Realizm dövrü",
+        "e) Romantizm dövrü"
+      ],
+      correct: "b) İntibah dövrü"
+    },
+    {
+      question: "165.0. Dünya mədəniyyətində maarifçi ədəbi tərəqqinin bir dövrüdür:",
+      answers: [
+        "a) Maarifçilik",
+        "b) Sosialist realizm dövrü",
+        "c) Realizm dövrü",
+        "d) Romantizm",
+        "e) İntibah dövrü"
+      ],
+      correct: "c) Realizm dövrü"
+    },
+    {
+      question: "166.0. Substansional kateqoriyaların tərkib hissələrini göstərin?",
+      answers: [
+        "a) Hərbi and, ədalət, borc, ədalətsizlik",
+        "b) Xeyir, şər, borc, vicdan, ədalət",
+        "c) Hərbi and, şər, borc, ədalətsizlik",
+        "d) Hərbi and, şər, borc, vicdan, ədalət",
+        "e) Vicdan, ədalət, şər, ədalətsizlik"
+      ],
+      correct: "b) Xeyir, şər, borc, vicdan, ədalət"
+    },
+    {
+      question: "167.0. “Yer üzündə ən böyük gözəllik insan gözəlliyidir” fikri aiddir:",
+      answers: [
+        "a) Fizuli",
+        "b) Pestalotsi",
+        "c) Nizami",
+        "d) Çernışevski",
+        "e) Höte"
+      ],
+      correct: "b) Pestalotsi"
+    },
+    {
+      question: "168.0. -Reallığın bədii əksidir:",
+      answers: [
+        "a) Estetika",
+        "b) İncəsənət",
+        "c) Dünyagörüşü",
+        "d) Zövq",
+        "e) Etika"
+      ],
+      correct: "b) İncəsənət"
+    },
+    {
+      question: "169.0. “Maarifçilik dövrü” terminini tarixə bəxş etmişdir:",
+      answers: [
+        "a) Didro",
+        "b) Volter",
+        "c) Monteskye",
+        "d) Hegel",
+        "e) Russo"
+      ],
+      correct: "b) Volter"
+    },
+    {
+      question: "170.0. Etika elminə həm də -- deyirdilər:",
+      answers: [
+        "a) hissi fəlsəfə",
+        "b) nəzəri fəlsəfə",
+        "c) ənənə fəlsəfəsi",
+        "d) məntiqi fəlsəfə",
+        "e) praktik fəlsəfə"
+      ],
+      correct: "e) praktik fəlsəfə"
+    },
+    {
+      question: "171.0. Əxlaqi dəyərlər problemi də təhlil olunur :",
+      answers: [
+        "a) Pozitivizm",
+        "b) Aksiologiya",
+        "c) Deontologiya",
+        "d) Eqoizm",
+        "e) Deskriptiv etika"
+      ],
+      correct: "b) Aksiologiya"
+    },
+    {
+      question: "172.0. Müxtəlif cəmiyyətlərdə əxlaq məsələlərin konkret-sosioloji tədqiqatlarını aparır :",
+      answers: [
+        "a) Aksiologiya",
+        "b) Deskriptiv etika",
+        "c) Eqoizm",
+        "d) Deontologiya",
+        "e) Pozitivizm"
+      ],
+      correct: "b) Deskriptiv etika"
+    },
+    {
+      question: "173.0. Əxlaq dedikdə burada subyektin şəxsi və özəl qarşılıqlı münasibətlərini əhatə edən əxlaqını başa düşürdü:",
+      answers: [
+        "a) N.Gəncəvi",
+        "b) Nitşe",
+        "c) Hegel",
+        "d) N.Tusi",
+        "e) Nəsimi"
+      ],
+      correct: "c) Hegel"
+    },
+    {
+      question: "174.0. Etika elminin xüsusi sahəsidir: burada bu və ya digər cəmiyyət əxlaqi, sosioloji və tarixi baxımından öyrənilir:",
+      answers: [
+        "a) Aksiologiya",
+        "b) Eqoizm",
+        "c) Deskriptiv etika",
+        "d) Deontologiya",
+        "e) Pozitivizm"
+      ],
+      correct: "c) Deskriptiv etika"
+    },
+    {
+      question: "175.0. Etika nəzəriyyəsinin istiqmətlərindən biridir və əxlaqi hərəkətləri alınan nəticədən asılı olaraq müəyyən edir:",
+      answers: [
+        "a) Pozitivizm",
+        "b) Konsekvensial etika",
+        "c) Aksiologiya",
+        "d) Deskriptiv etika",
+        "e) Deontologiya"
+      ],
+      correct: "b) Konsekvensial etika"
+    },
+    {
+      question: "Etik kateqoriya deyil:",
+      answers: [
+        "a) namus",
+        "b) borc",
+        "c) vicdan",
+        "d) vəzifə",
+        "e) asketizm"
+      ],
+      correct: "e) asketizm"
+    },
+    {
+      question: "Etik prinsiplərə aid edilmir:",
+      answers: [
+        "a) hümanizm",
+        "b) fərdiyyətçilik",
+        "c) xəyanət",
+        "d) namus",
+        "e) fərdiyyətçilik"
+      ],
+      correct: "d) namus"
+    },
+    {
+      question: "Əsas kateqoriyanı xeyir hesab edirdi:",
+      answers: [
+        "a) Homer",
+        "b) Aristotel",
+        "c) Sokrat",
+        "d) Kyerkeqor",
+        "e) Platon"
+      ],
+      correct: "e) Platon"
+    },
+    {
+      question: "Asketizm sözünün mahiyyəti:",
+      answers: [
+        "a) fanatizm",
+        "b) fərdiyyətçilik",
+        "c) insanilik",
+        "d) bölünməzlik",
+        "e) məşq etmək"
+      ],
+      correct: "e) məşq etmək"
+    },
+    {
+      question: "Fatalizm sözünün mənası:",
+      answers: [
+        "a) Bölünməzlik",
+        "b) Qismət",
+        "c) Ağıl",
+        "d) Ciddilik",
+        "e) İnsanilik"
+      ],
+      correct: "b) Qismət"
+    },
+    {
+      question: "Rigorizm sözünün mənası:",
+      answers: [
+        "a) fanatizm",
+        "b) ciddilik",
+        "c) fərdiyyətçilik",
+        "d) insanilik",
+        "e) bölünməzlik"
+      ],
+      correct: "b) ciddilik"
+    },
+    {
+      question: "Həm fərdiyyətçilik həm də nihilizmin əsasında durur:",
+      answers: [
+        "a) Riqorizm",
+        "b) Volyuntarizm",
+        "c) Fanatizm",
+        "d) Rasionalizm",
+        "e) Asketizm"
+      ],
+      correct: "b) Volyuntarizm"
+    },
+    {
+      question: "Latıncadan hədsiz özündən çıxan deməkdir:",
+      answers: [
+        "a) Riqorizm",
+        "b) Rasionalizm",
+        "c) Asketizm",
+        "d) Fanatizm",
+        "e) Volyuntarizm"
+      ],
+      correct: "d) Fanatizm"
+    },
+    {
+      question: "“Yalan danışma. Ən vacib olanı qoru”, Allahlara ehtiram, valideynlərə şərəf fikrinin müəllifi:",
+      answers: [
+        "a) Fales",
+        "b) Hilon",
+        "c) Solon",
+        "d) Kleobul",
+        "e) Pittak"
+      ],
+      correct: "c) Solon"
+    },
+    {
+      question: "Əxlaqı insan fəaliyyətinin bütün sahələrində təhlil etməyə çalışırdı:",
+      answers: [
+        "a) Platon",
+        "b) Aristotel",
+        "c) Sokrat",
+        "d) Fales",
+        "e) Anaksimand"
+      ],
+      correct: "c) Sokrat"
+    },
+    {
+      question: "Stoiklərin əsas saydığı 4 məziyyətə aid deyil:",
+      answers: [
+        "a) müdriklik",
+        "b) ədalətllilik",
+        "c) sağlam düşüncə (mötədillik)",
+        "d) savad",
+        "e) comərdlik"
+      ],
+      correct: "d) savad"
+    },
+    {
+      question: "Stoiklərin əsas saydığı 4 ehtiras:",
+      answers: [
+        "a) kədər",
+        "b) qorxu",
+        "c) həzzalma",
+        "d) sevgi",
+        "e) istəklər"
+      ],
+      correct: "d) sevgi"
+    },
+    {
+      question: "Daxili dönməzlik cərəyanıdır:",
+      answers: [
+        "a) intellektualizm",
+        "b) Skeptisizm",
+        "c) epikürçülük",
+        "d) hedonizm",
+        "e) stoisizm"
+      ],
+      correct: "b) Skeptisizm"
+    },
+    {
+      question: "Qədim Yunanıstanda Demokrit və Aristipp -- olmuşlar:",
+      answers: [
+        "a) Epikürçü",
+        "b) Evdemonist",
+        "c) Materialist",
+        "d) Stoik",
+        "e) Hedonist"
+      ],
+      correct: "e) Hedonist"
+    },
+    {
+      question: "“Bu, əsasən insanın daxili borcu və ləyaqət hissidir...” – bu anlayış aiddir:",
+      answers: [
+        "a) Buddizmin",
+        "b) Asketizmin",
+        "c) Lamaizim",
+        "d) “Li” anlayışının",
+        "e) Konfutsiliyin"
+      ],
+      correct: "d) “Li” anlayışının"
+    },
+    {
+      question: "O, “estetika” sözünü bir termin kimi tanıtdı və elmə çevirdi:",
+      answers: [
+        "a) J.J.Russo",
+        "b) G.Leybnits",
+        "c) A.Baumharten",
+        "d) Sokrat",
+        "e) Aristotel"
+      ],
+      correct: "c) A.Baumharten"
+    },
+    {
+      question: "Estetikanın mərkəzi fiqurlarından biridir:",
+      answers: [
+        "a) Məntiqi düşüncə",
+        "b) incəsənət bilikləri",
+        "c) sənətşünaslıq elmləri",
+        "d) Bədii obraz",
+        "e) Hissiyyat"
+      ],
+      correct: "d) Bədii obraz"
+    },
+    {
+      question: "Fransada bu hərəkat klassik ədəbiyyatın əsasına çevrildi:",
+      answers: [
+        "a) Romantizm",
+        "b) Sosialist realizm",
+        "c) İntibah",
+        "d) Realizm",
+        "e) Maarifçilik"
+      ],
+      correct: "e) Maarifçilik"
+    },
+    {
+      question: "Bədii yaradıcılığın təsir xüsusiyyətlərinin öyrənilməsi ilə sıx bağlıdır:",
+      answers: [
+        "a) Estetik baxış",
+        "b) Estetik düşüncə",
+        "c) Estetik hiss",
+        "d) Estetik dünyagörüşü",
+        "e) Estetik qavrayış"
+      ],
+      correct: "e) Estetik qavrayış"
+    },
+    {
+      question: "İncəsənətin sosioloji kateqoriyasına aid deyil:",
+      answers: [
+        "a) ideoloji",
+        "b) sinif",
+        "c) milliyyət",
+        "d) xalq",
+        "e) Bədiilik"
+      ],
+      correct: "e) Bədiilik"
+    },
+    {
+      question: "İncəsənətin dialektika kateqoriyasına aid deyil:",
+      answers: [
+        "a) bədii tərəqqi",
+        "b) yenilik",
+        "c) ənənələr",
+        "d) xalq",
+        "e) təsir"
+      ],
+      correct: "d) xalq"
+    },
+    {
+      question: "İncəsənətin yaradıcı genetikasının kateqoriyası deyil:",
+      answers: [
+        "a) eskiz",
+        "b) qaralama",
+        "c) variant",
+        "d) düşünmə",
+        "e) yenilik"
+      ],
+      correct: "e) yenilik"
+    },
+    {
+      question: "İncəsənətin psixologiyası kateqoriyası deyil:",
+      answers: [
+        "a) istedad",
+        "b) düşünmə",
+        "c) dahilik",
+        "d) qabiliyyət",
+        "e) ilham"
+      ],
+      correct: "b) düşünmə"
+    },
+    {
+      question: "İncəsənətin quruluş kateqoriyasına aid edilmir:",
+      answers: [
+        "a) kompozisiya",
+        "b) bədii zaman",
+        "c) bədii mətn",
+        "d) dahilik",
+        "e) məkan"
+      ],
+      correct: "d) dahilik"
+    },
+    {
+      question: "Müxtəlifliyin birliyidir, ziddiyyətlilərin razılığıdır, kainatla uzlaşmadır:",
+      answers: [
+        "a) Mədəniyyət",
+        "b) İncəsənət",
+        "c) Evdemonizm",
+        "d) Harmoniya",
+        "e) Hedonizm"
+      ],
+      correct: "d) Harmoniya"
+    },
+    {
+      question: "Əxlaqın ümumnəzəri modeli hələ formalaşmamışdı:",
+      answers: [
+        "a) XX əsrin II yarısına qədər",
+        "b) XV əsrə qədər",
+        "c) XX əsrin əvvəlinə qədər",
+        "d) XIX əsrin ikinci yarısına qədər",
+        "e) XVIII əsrə qədər"
+      ],
+      correct: "d) XIX əsrin ikinci yarısına qədər"
     }
-  ];
+  ]
   
+
+
+
+
+
+
+
+
+
+
+
+
   // Oyun dəyişənləri
   const originalQuestions = JSON.parse(JSON.stringify(questions));
   let answersGiven = new Array(questions.length).fill(null);
