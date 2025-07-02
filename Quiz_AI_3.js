@@ -504,12 +504,229 @@ const questions = [
       "E) A"
     ],
     correct: "E) A"
+  },
+  {
+    question: "52. Türinq maşının şərhi neçə cəhətlə verilir?",
+    answers: [
+      "A) sonlu sayda",
+      "B) bir",
+      "C) sonsuz sayda",
+      "D) bir neçə",
+      "E) üç"
+    ],
+    correct: "C) sonsuz sayda"
+  },
+  {
+    question: "53. Türinq maşının proqramı neçə sətr və neçə sütun olan cədvəl şəklində verilir?",
+    answers: [
+      "A) (k+2) sətr və (m+1) sütun",
+      "B) (k-1) sətr və k sütun",
+      "C) k sətr və m sütun",
+      "D) (k+1) sətr və m sütun",
+      "E) sözlərlə"
+    ],
+    correct: "C) k sətr və m sütun"
+  },
+  {
+    question: "57. Türinq maşını nə vaxt verilmişdir deyirlər?",
+    answers: [
+      "A) eynilikdirsə",
+      "B) köhnə hərf silinir",
+      "C) mənasızdırsa",
+      "D) sadə bərabərlik olarsa",
+      "E) proqram"
+    ],
+    correct: "E) proqram"
+  },
+  {
+    question: "59. Türinq maşının kompozisiyası əməli komutativlik xassəsinə malikdirmi?",
+    answers: [
+      "A) bir neçə dəfə",
+      "B) yox",
+      "C) sonlu sayda",
+      "D) hə",
+      "E) müəyyən sayda"
+    ],
+    correct: "C) sonlu sayda"
+  },
+  {
+    question: "61. Türinq maşınında 0 (sıfır) rəqəmi hansı ədədin simvolu ilə göstərilir?",
+    answers: [
+      "A) 7",
+      "B) 2",
+      "C) 1",
+      "D) K",
+      "E) III"
+    ],
+    correct: "C) 1"
+  },
+  {
+    question: "62. 0011110101110 nəyi bildirir?",
+    answers: [
+      "A) 3 və 1 ədədləri",
+      "B) 7-3 ədədini",
+      "C) 2 və 5 ədədləri",
+      "D) 2+1 ədədini",
+      "E) solda 3, sağda 2 ədədi yerləşir"
+    ],
+    correct: "E) solda 3, sağda 2 ədədi yerləşir"
+  },
+  {
+    question: "63. n=3, x1=2, x2=1, x3=3 ədədləri lentdə necə yerləşir?",
+    answers: [
+      "A) 0000111",
+      "B) 0001011100",
+      "C) 111001",
+      "D) 00110",
+      "E) 00111011011110"
+    ],
+    correct: "A) 0000111"
+  },
+  {
+    question: "64. Türinq maşının işinin nəticəsi nədir?",
+    answers: [
+      "A) söz",
+      "B) funksiya",
+      "C) tənlik",
+      "D) alqoritm",
+      "E) bərabərlik"
+    ],
+    correct: "D) alqoritm"
+  },
+  {
+    question: "65. Türinq maşının tam vəziyyəti necə adlanır?",
+    answers: [
+      "A) konfiqurasiya",
+      "B) əlifba",
+      "C) proqram",
+      "D) vəziyyət",
+      "E) lent"
+    ],
+    correct: "C) proqram"
+  },
+  {
+    question: "66. Türinq maşınında simvolların artması hansı vəziyyətin azalmasına gətirilir?",
+    answers: [
+      "A) hərflərin",
+      "B) daxili vəziyyətin",
+      "C) interpretasiyanın",
+      "D) simvolların",
+      "E) ədədlərin"
+    ],
+    correct: "C) interpretasiyanın"
+  },
+  {
+    question: "67. Türinq maşını üçün proqram yazılışı və konkret quruluşunun yazılışı necə adlanır?",
+    answers: [
+      "A) interpretasiya",
+      "B) proqram",
+      "C) simvol",
+      "D) tənlik",
+      "E) ardıcıllıq"
+    ],
+    correct: "B) proqram"
+  },
+  {
+    question: "68. “Hər bir alqoritmi icra edən maşın var” tezisi kimə məxsusdur?",
+    answers: [
+      "A) K.Qeldə",
+      "B) A.Türinqə",
+      "C) R.Məmmədova",
+      "D) Markova",
+      "E) Pifaqora"
+    ],
+    correct: "A) K.Qeldə"
+  },
+  {
+    question: "69. f(x,y)=xy necə funksiyadır?",
+    answers: [
+      "A) primitiv-rekursiv",
+      "B) həll olan",
+      "C) azalan",
+      "D) loqarifmik",
+      "E) həll olmayan",
+      "A) artan"
+    ],
+    correct: "A) primitiv-rekursiv"
+  },
+  {
+    question: "70. Universal maşında arqument rolunu nə oynayır?",
+    answers: [
+      "A) tam ədədlər",
+      "B) interpretasiya",
+      "C) arqument",
+      "D) türinq maşını",
+      "E) funksiya"
+    ],
+    correct: "B) interpretasiya"
+  },
+  {
+    question: "74. Elementar funksiyalar necə funksiyalardır?",
+    answers: [
+      "A) hesabi",
+      "B) loqarifmik",
+      "C) mürəkkəb",
+      "D) kəsilməz",
+      "E) sadə"
+    ],
+    correct: "C) mürəkkəb"
+  },
+  {
+    question: "75. Elementar funksiyaların qurulması üçün başlanğıc kimi hansı ədəd götürülür?",
+    answers: [
+      "A) rum rəqəmi",
+      "B) bir",
+      "C) iki",
+      "D) beş",
+      "E) natural ədəd"
+    ],
+    correct: "A) rum rəqəmi"
+  },
+  {
+    question: "81. Rekursif funksiyalar sinfi necə təyin olunur?",
+    answers: [
+      "A) intiutiv",
+      "B) birqiymətli",
+      "C) təcmini",
+      "D) dəqiq",
+      "E) çox qiyməyli"
+    ],
+    correct: "D) dəqiq"
+  },
+  {
+    question: "88. Hansı funksiyalar primitiv-rekursivdir?",
+    answers: [
+      "A) həmişə",
+      "B) müəyyən hallarda",
+      "C) x=1 olduqda",
+      "D) müsbət qiymətlərdə",
+      "E) əvəzetmə və rekursiya ilə alındıqda"
+    ],
+    correct: "B) müəyyən hallarda"
+  },
+  {
+    question: "89. Bütün rekursiv funksiyalar primitiv rekursivdirmi?",
+    answers: [
+      "A) x=y olduqda",
+      "B) hə",
+      "C) yox",
+      "D) bəzən",
+      "E) y=x+1 olduqda"
+    ],
+    correct: "E) y=x+1 olduqda"
+  },
+  {
+    question: "93. Hesabi funksiyalar hansı üsullarla alınır?",
+    answers: [
+      "A) azaltma",
+      "B) əvəzləmə, dəyişmə",
+      "C) Evklid üsulu",
+      "D) çoxaltma",
+      "E) “eyniliklə sıfır”, bilavasitə sonra gələn “proyeksiyalama”"
+    ],
+    correct: "C) Evklid üsulu"
   }
 ]
-
-
-
-
 
 
 
