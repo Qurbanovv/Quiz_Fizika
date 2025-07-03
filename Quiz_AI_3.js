@@ -539,6 +539,27 @@ const questions = [
     correct: "E) proqram"
   },
   {
+    question: "56. Türinq maşının işi nə vaxt başa çatır?",
+    answers: [
+      "A) Qk+1 olursa",
+      "B) Qk olursa",
+      "C) Qo veziyyetine gelirse",
+      "D) Sk veziyyetine gelirse",
+      "E) Si veziyyetine gelirse"
+    ],
+    correct: "E) Si veziyyetine gelirse"
+  },
+//   56. Türinq maşının işi nə vaxt başa çatır?
+//   Çətinlik dərəcəsi -1
+//  A)   vəziyyətinə gəlirsə 
+//  B)   olursa
+//  C)   vəziyyətinə gəlirsə
+//  D) Sk vəziyyətinə gəlirsə
+//  E) qk+1 olursa
+ 
+
+
+  {
     question: "59. Türinq maşının kompozisiyası əməli komutativlik xassəsinə malikdirmi?",
     answers: [
       "A) bir neçə dəfə",
@@ -725,8 +746,197 @@ const questions = [
       "E) “eyniliklə sıfır”, bilavasitə sonra gələn “proyeksiyalama”"
     ],
     correct: "C) Evklid üsulu"
+  },
+  {
+    question: "93. Hesabi funksiyalar hansı üsullarla alınır?",
+    answers: [
+      "A) azaltma",
+      "B) əvəzləmə, dəyişmə",
+      "C) Evklid üsulu",
+      "D) çoxaltma",
+      "E) “eyniliklə sıfır”, bilavasitə sonra gələn “proyeksiyalama”"
+    ],
+    correct: "C) Evklid üsulu"
+  },
+  {
+    question: "95. Rekursiya operatoru qaydası zamanı hansı funksiya alınır?",
+    answers: [
+      "A) əvvəlki funksiya",
+      "B) artan funksiya",
+      "C) x+2=y-1 dəyişənli",
+      "D) k+2 dəyişənli yeni funksiya",
+      "E) n dəyişənli yeni funksiya"
+    ],
+    correct: "D) k+2 dəyişənli yeni funksiya"
+  },
+  {
+    question: "96. Rekursiya operatorunda dəyişənlərdən 2-ci dəyişənin rolu nədən ibarətdir?",
+    answers: [
+      "A) köməkçi",
+      "B) dəyişəni yox etmək",
+      "C) əlavə",
+      "D) əsas",
+      "E) arqument əlavə etmək"
+    ],
+    correct: "B) dəyişəni yox etmək"
+  },
+    {
+    question: "97. f1 ve f2 funksiyalarından R operatorunun tətbiqi nəticəsində f funksiyasının alınması prosesi necə göstərilir ",
+    answers: [
+      "A) f=A(x)",
+      "B) R=f(x)",
+      "C) F=x+y",
+      "D) f(x,y)",
+      "E) R[f1,f2(x,y)]"
+    ],
+    correct: "C) F=x+y"
+  },
+  {
+    question: "99. Bütün hesablanan funksiyalar primitiv-rekursiv kimi yazmaq olarmı?",
+    answers: [
+      "A) f =A(x)  olduqda hə",
+      "B) hə",
+      "C) yox",
+      "D) bir neçə qiymətdə olar",
+      "E) yalnız x=1 olduqda olmaz"
+    ],
+    correct: "A) f =A(x)  olduqda hə"
+  },
+  {
+    question: "100. Hasil hansı əməldən tez böyüyür?",
+    answers: [
+      "A) toplama",
+      "B) vurma",
+      "C) çıxma",
+      "D) bölmə",
+      "E) qüvvətə yüksəltmə"
+    ],
+    correct: "C) çıxma"
+  },
+  {
+    question: "101. Qüvvətə yüksəltmə hansı əməldən tez yarır?",
+    answers: [
+      "A) bölmə",
+      "B) vurma",
+      "C) kök alma",
+      "D) çıxma",
+      "E) toplama"
+    ],
+    correct: "B) vurma"
+  },
+  {
+    question: "102. P0(a,x)=a+x  yazılışında toplama hansı əməl hesab edilir?",
+    answers: [
+      "A) ikinci",
+      "B) birinci",
+      "C) (n+1)-ci",
+      "D) n-ci",
+      "E) sıfırıncı"
+    ],
+    correct: "E) sıfırıncı"
+  },
+  {
+    question: "103. P1(a,x)=ax  yazılışında vurma necenci əməl hesab edilir?",
+    answers: [
+      "A) ikinci",
+      "B) birinci",
+      "C) (n+1)-ci",
+      "D) n-ci",
+      "E) sıfırıncı"
+    ],
+    correct: "A) ikinci"
+  },
+  {
+    question: "110. Akkerman funksiyası primitiv-rekursiv dirmi?",
+    answers: [
+      "A) hə",
+      "B) x=1 qiymətində",
+      "C) heç vaxt",
+      "D) yox",
+      "E) x=y olanda"
+    ],
+    correct: "B) x=1 qiymətində"
+  },
+  {
+    question: "111. Akkerman funksiyası sürətlə böyüyür yoxsa, primitiv-rekursiv funksiyalar?",
+    answers: [
+      "A) y= logx funksiyası",
+      "B) Primitiv-Rekursiv",
+      "C) y=x^2 funksiyası",
+      "D) Akkerman",
+      "E) y=kokalti x funksiyası"
+    ],
+    correct: "A) y= logx funksiyası"
+  },
+  {
+    question: "112. Akkerman funksiyası necə hesablanan funksiyadır?",
+    answers: [
+      "A) sürətlə",
+      "B) artan",
+      "C) kəsilməz",
+      "D) total",
+      "E) azalan"
+    ],
+    correct: "C) kəsilməz"
+  },
+  {
+    question: "113. Alqoritm necə obyektlərlə işləyir?",
+    answers: [
+      "A) sabit",
+      "B) dəyişən",
+      "C) konstruktiv",
+      "D) təzə",
+      "E) köhnə"
+    ],
+    correct: "B) dəyişən"
+  },
+  {
+    question: "114. İşarələrdən ibarət sonlu çoxluq dedikdə nə başa düşülür?",
+    answers: [
+      "A) rasional ədədlər",
+      "B) natural ədədlər",
+      "C) əlifba",
+      "D) kəsrlər",
+      "E) kodlar"
+    ],
+    correct: "B) natural ədədlər"
+  },
+  {
+    question: "115. Türinq maşınıdakı “söz” anlayışı təbii dildəki “söz” anlayışından fərqlənirmi?",
+    answers: [
+      "A) yox",
+      "B) x-in bir neçə qiymətində",
+      "C) hə",
+      "D) x=1 olduqda",
+      "E) olduqda"
+    ],
+    correct: "C) hə"
+  },
+  {
+    question: "116. Sonsuz xanalara bölünmüş maşın hansı maşındır?",
+    answers: [
+      "A) Türinq",
+      "B) K.Qeld",
+      "C) Markov",
+      "D) Yük maşını",
+      "E) avtomobil"
+    ],
+    correct: "C) Markov"
+  },
+  {
+    question: "117.S0 hərfi T.M.-də nə vaxt yazılır?",
+    answers: [
+      "A) heç vaxt",
+      "B) həmişə",
+      "C) S0=1 olduqda",
+      "D) dentin xanası boş olduqda",
+      "E) S1=S0 olduqda"
+    ],
+    correct: "C) S0=1 olduqda"
   }
 ]
+
+
 
 
 
