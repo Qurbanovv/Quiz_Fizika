@@ -569,7 +569,7 @@ const questions = [
       "D) 2+1 ədədini",
       "E) solda 3, sağda 2 ədədi yerləşir"
     ],
-    correct: "E) solda 3, sağda 2 ədədi yerləşir"
+    correct: "A) 3 və 1 ədədləri"
   },
   {
     question: "63. n=3, x1=2, x2=1, x3=3 ədədləri lentdə necə yerləşir?",
@@ -866,3 +866,22 @@ const questions = [
 
   // İlk sualı göstər
   loadQuestion(0);
+
+
+let isVertical = true;
+
+document.getElementById("toggle_layout").addEventListener("click", () => {
+  const variDiv = document.querySelector(".vari");
+  isVertical = !isVertical;
+
+  if (isVertical) {
+    variDiv.classList.remove("row-layout");
+    variDiv.classList.add("column-layout");
+  } else {
+    variDiv.classList.remove("column-layout");
+    variDiv.classList.add("row-layout");
+  }
+});
+
+
+document.querySelector(".vari").classList.add("column-layout");

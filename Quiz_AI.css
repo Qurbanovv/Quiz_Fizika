@@ -34,13 +34,13 @@ h2 {
     color: #111;
 }
 
-.vari {
+/* .vari {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
     margin-top: 20px;
-}
+} */
 
 .vari button {
     flex: 1 1 40%;
@@ -53,7 +53,48 @@ h2 {
     color: #007BFF;
     cursor: pointer;
     transition: 0.3s;
+} 
+/* 
+.vari {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 20px;
 }
+
+.vari button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #007BFF;
+  border-radius: 12px;
+  background-color: white;
+  color: #007BFF;
+  cursor: pointer;
+  transition: 0.3s;
+} */
+
+/* Yan-yana düzülüş */
+.vari.row-layout {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Alt-alta düzülüş */
+.vari.column-layout {
+  flex-direction: column;
+}
+.vari {
+  display: flex;
+  flex-direction: column; /* başlanğıcda alt-alta */
+  gap: 10px;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 20px;
+}
+
 
 .vari button:hover {
     background-color: #007BFF;
