@@ -933,9 +933,206 @@ const questions = [
       "E) S1=S0 olduqda"
     ],
     correct: "C) S0=1 olduqda"
+  },
+  {
+    question: "166. Alqoritmlər çoxluğu necə çoxluqdur?",
+    answers: [
+      "A) mürəkkəb",
+      "B) rekursiv",
+      "C) hesabi",
+      "D) normal",
+      "E) primitiv-rekursiv"
+    ],
+    correct: "A) mürəkkəb"
+  },
+  {
+    question: "167. Primitiv-rekursiv funksiyalar hansı əlamətlərinə görə siniflərə ayrılır?",
+    answers: [
+      "A) artmasına görə",
+      "B) sabit olmasına görə",
+      "C) dəyişənlərinə görə",
+      "D) arqumentlərinə görə",
+      "E) ekvivalentliyinə görə"
+    ],
+    correct: "A) artmasına görə"
+  },
+  {
+    question: "168. Eynilik çevirmələri necə yazılır?",
+    answers: [
+      "A) aa və bb",
+      "B) a+b",
+      "C) a-b",
+      "D)",
+      "E) aa+bb"
+    ],
+    correct: "A) aa və bb"
+  },
+  {
+    question: "169. Akkerman funksiyası necə yazılır?",
+    answers: [
+      "A) A(x)",
+      "B) A(x,x)",
+      "C) A(x)+B(x)",
+      "D) B(n,x)",
+      "E) B(x)"
+    ],
+    correct: "C) A(x)+B(x)"
+  },
+  {
+    question: "170. Akkermanın dioqanal funksiyası necə yazılır",
+    answers: [
+      "A) A(x) B(x)",
+      "B) A(x)+B(x)",
+      "C) A(x)=B(x,x)",
+      "D) A(x)",
+      "E) B(x)"
+    ],
+    correct: "C) A(x)=B(x,x)"
+  },
+  {
+    question: "171. Avtomatlar nəzəriyyəsinin predmeti nədir?",
+    answers: [
+      "A) mülahizələr",
+      "B) nəzəri kibernetika",
+      "C) riyazi modellər",
+      "D) məntiq elementi",
+      "E) registrlər"
+    ],
+    correct: "D) məntiq elementi"
+  },
+  {
+    question: "172. Avtomat termini ilk dəfə neçənci ildə işlənmişdir?",
+    answers: [
+      "A) 2006",
+      "B) 1931",
+      "C) 1950",
+      "D) 1930",
+      "E) 1961"
+    ],
+    correct: "E) 1961"
+  },
+  {
+    question: "173. Potensial sonsuz yaddaşa malik maşın hansı maşındır",
+    answers: [
+      "A) EHM",
+      "B) Markov maşını",
+      "C) Kərəm maşını",
+      "D) Türinq maşını",
+      "E) Cörc maşını"
+    ],
+    correct: "B) Markov maşını"
+  },
+  {
+    question: "174. Türinq maşını necə maşındır?",
+    answers: [
+      "A) xəyali",
+      "B) iri həcmli",
+      "C) bacarıqlı",
+      "D) formal",
+      "E) kiçik maşındır"
+    ],
+    correct: "A) xəyali"
+  },
+  {
+    question: "178. Sıfırlaşdırıcı; vahid əlavə etmə, ünvan ötürən, şərti keçid əmrləri hansı maşında yerinə yetirilir?",
+    answers: [
+      "A) QMRM",
+      "B) Türinq",
+      "C) Markov",
+      "D) Evklid",
+      "E) Akkerman"
+    ],
+    correct: "B) Türinq"
+  },
+  {
+    question: "179. Növbəti əmr olmadıqda QMRM –də nə baş verir",
+    answers: [
+      "A) hesablama davam edir",
+      "B) hesablama dayanır",
+      "C) yaddaş artır",
+      "D) əməliyyat təkrarlanır",
+      "E) sonsuzluğa gedir"
+    ],
+    correct: "C) yaddaş artır"
+  },
+  {
+    question: "180. Hesablanan funksiyalar sinfi kimə görə üst-üstə düşür?",
+    answers: [
+      "A) Türinqə görə",
+      "B) Markova görə",
+      "C) Akkormana görə",
+      "D) Cörrə görə",
+      "E) Nəsimiyə görə"
+    ],
+    correct: "C) Akkormana görə"
+  },
+  {
+    question: "181. Müasir kompüterlərdən hansı maşın fərqlənir?",
+    answers: [
+      "A) Türinq",
+      "B) Evklid",
+      "C) EHM",
+      "D) Cörc",
+      "E) Albert"
+    ],
+    correct: "B) Evklid"
+  },
+  {
+    question: "182. Assosiativ sistem müəyyən əlifbanın hansı çoxluğuna deyilir?",
+    answers: [
+      "A) kəsilməyən",
+      "B) sözlər",
+      "C) müəyyən",
+      "D) artan",
+      "E) universal"
+    ],
+    correct: "A) kəsilməyən"
+  },
+  {
+    question: "183. Bütün QMRM- də hesablanan funksiyalar sinfi  üst-üstə düşürmü?",
+    answers: [
+      "A) boş sözdür",
+      "B) yox",
+      "C) eynilikdir",
+      "D) hə",
+      "E) bəzi halda"
+    ],
+    correct: "A) boş sözdür"
+  },
+  {
+    question: "184. Akkorman funksiyası hesablanandırmı?",
+    answers: [
+      "A) yox",
+      "B) x=y  olduqda",
+      "C) müəyyən qiymətlərdə",
+      "D) hə",
+      "E) x=1 olduqda"
+    ],
+    correct: "B) x=y  olduqda"
+  },
+  {
+    question: "185. Türinq maşını necə avtomatdır?",
+    answers: [
+      "A) özü yeriyən",
+      "B) sonsuz",
+      "C) sonlu",
+      "D) artan",
+      "E) azalan"
+    ],
+    correct: "B) sonsuz"
+  },
+  {
+    question: "186. Alqoritmlər və releli qurğular nəzəriyyəsində hansı anlayış meydana gəlmişdir?",
+    answers: [
+      "A) Evklid",
+      "B) Türinq",
+      "C) normal",
+      "D) avtomat",
+      "E) Markov"
+    ],
+    correct: "E) Markov"
   }
 ]
-
 
 
 
